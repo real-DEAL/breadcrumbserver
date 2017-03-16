@@ -16,11 +16,17 @@ class CreateTrails extends Nodal.Migration {
         { name: 'name', type: 'string' },
         { name: 'description', type: 'text' },
         { name: 'rating', type: 'int' },
+        { name: 'transport', type: 'string' },
         { name: 'type', type: 'string' },
         { name: 'length', type: 'string' },
-        { name: 'requires_money', type: 'string' },
-        { name: 'start_crumb', type: 'int' },
-        { name: 'end_crumb', type: 'int' }]),
+        { name: 'requires_money', type: 'boolean' },
+        { name: 'difficulty', type: 'int' },
+        { name: 'map', type: 'string' },
+        { name: 'time', type: 'string' },
+        // TODO: find a way to integrate these two
+        // { name: 'start_crumb', type: 'int' },
+        // { name: 'end_crumb', type: 'int' },
+      ]),
     ];
   }
   down() {

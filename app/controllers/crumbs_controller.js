@@ -13,7 +13,7 @@ class CrumbsController extends Nodal.Controller {
           'trail_id',
           'name',
           'description',
-          'order_Number',
+          'order_number',
           'geoId',
           'latitude',
           'longitude',
