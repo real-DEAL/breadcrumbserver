@@ -27,7 +27,7 @@ class CreateCrumbs extends Nodal.Migration {
         { name: 'vibration', type: 'int' },
         { name: 'data', type: 'string' },
         { name: 'text', type: 'text' },
-        { name: 'imgage', type: 'string' },
+        { name: 'image', type: 'string' },
         { name: 'video', type: 'string' },
         { name: 'ar', type: 'string' }]),
     ];

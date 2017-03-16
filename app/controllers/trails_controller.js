@@ -20,15 +20,15 @@ class TrailsController extends Nodal.Controller {
           'type',
           'length',
           'requires_money',
-          'start_Crumb',
-          'end_Crumb',
+          'start_crumb',
+          'end_crumb',
           'created_at',
           'updated_at',
           { crumb: ['trail_id',
             'name',
             'description',
-            'order_Number',
-            'geoId',
+            'order_number',
+            'geoid',
             'latitude',
             'longitude',
             'radius',
@@ -41,7 +41,7 @@ class TrailsController extends Nodal.Controller {
             'text',
             'image',
             'video',
-            'aR'] },
+            'ar'] },
         ]);
       });
   }
