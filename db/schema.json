@@ -15,8 +15,8 @@
         {"name": "description", "type": "text", "properties": {}},
         {"name": "order_number", "type": "int", "properties": {}},
         {"name": "geo_id", "type": "string", "properties": {}},
-        {"name": "latitude", "type": "int", "properties": {}},
-        {"name": "longitude", "type": "int", "properties": {}},
+        {"name": "latitude", "type": "float", "properties": {}},
+        {"name": "longitude", "type": "float", "properties": {}},
         {"name": "radius", "type": "int", "properties": {}},
         {"name": "notification_id", "type": "int", "properties": {}},
         {"name": "title", "type": "string", "properties": {}},
@@ -25,7 +25,7 @@
         {"name": "vibration", "type": "int", "properties": {}},
         {"name": "data", "type": "string", "properties": {}},
         {"name": "text", "type": "text", "properties": {}},
-        {"name": "imgage", "type": "string", "properties": {}},
+        {"name": "image", "type": "string", "properties": {}},
         {"name": "video", "type": "string", "properties": {}},
         {"name": "ar", "type": "string", "properties": {}},
         {"name": "created_at", "type": "datetime", "properties": {}},
@@ -43,8 +43,8 @@
         {"name": "user_id", "type": "int", "properties": {}},
         {"name": "trail_id", "type": "int", "properties": {}},
         {"name": "position", "type": "int", "properties": {}},
-        {"name": "time_start", "type": "int", "properties": {}},
-        {"name": "time_sinished", "type": "int", "properties": {}},
+        {"name": "time_start", "type": "string", "properties": {}},
+        {"name": "time_sinished", "type": "string", "properties": {}},
         {"name": "created_at", "type": "datetime", "properties": {}},
         {"name": "updated_at", "type": "datetime", "properties": {}}
       ]
@@ -61,11 +61,13 @@
         {"name": "name", "type": "string", "properties": {}},
         {"name": "description", "type": "text", "properties": {}},
         {"name": "rating", "type": "int", "properties": {}},
+        {"name": "transport", "type": "string", "properties": {}},
         {"name": "type", "type": "string", "properties": {}},
         {"name": "length", "type": "string", "properties": {}},
-        {"name": "requires_money", "type": "string", "properties": {}},
-        {"name": "start_crumb", "type": "int", "properties": {}},
-        {"name": "end_crumb", "type": "int", "properties": {}},
+        {"name": "requires_money", "type": "boolean", "properties": {}},
+        {"name": "difficulty", "type": "int", "properties": {}},
+        {"name": "map", "type": "string", "properties": {}},
+        {"name": "time", "type": "string", "properties": {}},
         {"name": "created_at", "type": "datetime", "properties": {}},
         {"name": "updated_at", "type": "datetime", "properties": {}}
       ]
@@ -79,12 +81,13 @@
       "columns": [
         {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
         {"name": "email", "type": "string", "properties": {"unique":true}},
-        {"name": "points", "type": "int", "properties": {}},
+        {"name": "score", "type": "int", "properties": {}},
         {"name": "total_completed", "type": "int", "properties": {}},
         {"name": "current_trail", "type": "int", "properties": {}},
         {"name": "password", "type": "string", "properties": {}},
         {"name": "username", "type": "string", "properties": {}},
         {"name": "profile_picture", "type": "string", "properties": {}},
+        {"name": "social_login", "type": "string", "properties": {}},
         {"name": "created_at", "type": "datetime", "properties": {}},
         {"name": "updated_at", "type": "datetime", "properties": {}}
       ]
