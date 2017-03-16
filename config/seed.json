@@ -100,7 +100,203 @@
      ]
   },
 
-  "test": {},
-  "production": {}
+  "test": {
+    "User":[
+          {
+           "email":"test1@email.com",
+           "points":10,
+           "total_completed":1,
+           "current_trail":1,
+           "password":"password1",
+           "username": "testuser1",
+           "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+         },
+         {
+          "email":"test2@email.com",
+          "points":20,
+          "total_completed":2,
+          "current_trail":2,
+          "password":"password2",
+          "username": "testuser2",
+          "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+        },
+        {
+         "email":"test3@email.com",
+         "points":30,
+         "total_completed":3,
+         "current_trail":3,
+         "password":"password3",
+         "username": "testuser3",
+         "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+       }
+     ],
+     "Crumbtrail": [
+       {
+         "creator":  1,
+         "name":  "test trail1",
+         "description":  "text for test trail 1",
+         "rating":  "3",
+         "type":  "tour",
+         "length":  "2 miles",
+         "requires_money":  "yes",
+         "start_Crumb":  "1",
+         "end_Crumb":  "4"
+       },
+       {
+         "creator":  2 ,
+         "name":  "test trail2",
+         "description":  "text for test trail 2",
+         "rating":  "4",
+         "type":  "adventure",
+         "length":  "26.3 miles",
+         "requires_money":  "no",
+         "start_Crumb":  "2",
+         "end_Crumb":  "7"
+       },
+       {
+         "creator":  3 ,
+         "name":  "test trail3",
+         "description":  "text for test trail 3",
+         "rating":  "3",
+         "type":  "scavenger hunt",
+         "length":  "6 miles",
+         "requires_money":  "no",
+         "start_Crumb":  "3",
+         "end_Crumb":  "8"
+       }
+     ],
+     "Crumb": [
+       {
+         "crumbtrail_id":1,
+         "name": "crumb1",
+         "description": "1",
+         "order_Number": 1,
+         "location": 1,
+         "text": "text for crumb number 1 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "aR": "string"
+       },
+       {
+         "crumbtrail_id":1,
+         "name": "crumb2",
+         "description": "2",
+         "order_Number": 2,
+         "text": "text for crumb number 2 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "aR": "string"
+       },
+       {
+         "crumbtrail_id":1,
+         "name": "crumb3",
+         "description": "3",
+         "order_Number": 3,
+         "text": "text for crumb number 3 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "aR": "string"
+       }
+     ]
+  },
+  "production": {
+    "User":[
+          {
+           "email":"test1@email.com",
+           "points":10,
+           "total_completed":1,
+           "current_trail":1,
+           "password":"password1",
+           "username": "testuser1",
+           "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+         },
+         {
+          "email":"test2@email.com",
+          "points":20,
+          "total_completed":2,
+          "current_trail":2,
+          "password":"password2",
+          "username": "testuser2",
+          "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+        },
+        {
+         "email":"test3@email.com",
+         "points":30,
+         "total_completed":3,
+         "current_trail":3,
+         "password":"password3",
+         "username": "testuser3",
+         "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+       }
+     ],
+     "Crumbtrail": [
+       {
+         "creator":  1,
+         "name":  "test trail1",
+         "description":  "text for test trail 1",
+         "rating":  "3",
+         "type":  "tour",
+         "length":  "2 miles",
+         "requires_money":  "yes",
+         "start_Crumb":  "1",
+         "end_Crumb":  "4"
+       },
+       {
+         "creator":  2 ,
+         "name":  "test trail2",
+         "description":  "text for test trail 2",
+         "rating":  "4",
+         "type":  "adventure",
+         "length":  "26.3 miles",
+         "requires_money":  "no",
+         "start_Crumb":  "2",
+         "end_Crumb":  "7"
+       },
+       {
+         "creator":  3 ,
+         "name":  "test trail3",
+         "description":  "text for test trail 3",
+         "rating":  "3",
+         "type":  "scavenger hunt",
+         "length":  "6 miles",
+         "requires_money":  "no",
+         "start_Crumb":  "3",
+         "end_Crumb":  "8"
+       }
+     ],
+     "Crumb": [
+       {
+         "crumbtrail_id":1,
+         "name": "crumb1",
+         "description": "1",
+         "order_Number": 1,
+         "location": 1,
+         "text": "text for crumb number 1 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "aR": "string"
+       },
+       {
+         "crumbtrail_id":1,
+         "name": "crumb2",
+         "description": "2",
+         "order_Number": 2,
+         "text": "text for crumb number 2 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "aR": "string"
+       },
+       {
+         "crumbtrail_id":1,
+         "name": "crumb3",
+         "description": "3",
+         "order_Number": 3,
+         "text": "text for crumb number 3 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "aR": "string"
+       }
+     ]
+  }
 
 }
