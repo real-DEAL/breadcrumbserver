@@ -16,7 +16,7 @@ class CreateSavedtrails extends Nodal.Migration {
         { name: 'trail_id', type: 'int' },
         { name: 'position', type: 'int' },
         { name: 'time_start', type: 'int' },
-        { name: 'time_finished', type: 'int' }]),
+        { name: 'time_sinished', type: 'int' }]),
     ];
   }
   down() {

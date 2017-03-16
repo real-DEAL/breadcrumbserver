@@ -29,7 +29,7 @@ class CreateCrumbs extends Nodal.Migration {
         { name: 'text', type: 'text' },
         { name: 'imgage', type: 'string' },
         { name: 'video', type: 'string' },
-        { name: 'a_r', type: 'string' }]),
+        { name: 'ar', type: 'string' }]),
     ];
   }
   down() {

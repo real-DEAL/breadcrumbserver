@@ -39,8 +39,8 @@
          "type":  "tour",
          "length":  "2 miles",
          "requires_money":  "yes",
-         "start_Crumb":  "1",
-         "end_Crumb":  "4"
+         "start_crumb":  "1",
+         "end_crumb":  "4"
        },
        {
          "user_id":  2 ,
@@ -50,8 +50,8 @@
          "type":  "adventure",
          "length":  "26.3 miles",
          "requires_money":  "no",
-         "start_Crumb":  "2",
-         "end_Crumb":  "7"
+         "start_crumb":  "2",
+         "end_crumb":  "7"
        },
        {
          "user_id":  3 ,
@@ -61,8 +61,8 @@
          "type":  "scavenger hunt",
          "length":  "6 miles",
          "requires_money":  "no",
-         "start_Crumb":  "3",
-         "end_Crumb":  "8"
+         "start_crumb":  "3",
+         "end_crumb":  "8"
        }
      ],
      "Crumb": [
@@ -70,32 +70,32 @@
          "trail_id":1,
          "name": "crumb1",
          "description": "1",
-         "order_Number": 1,
+         "order_number": 1,
          "location": 1,
          "text": "text for crumb number 1 ",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
          "video": "string",
-         "aR": "string"
+         "ar": "string"
        },
        {
          "trail_id":1,
          "name": "crumb2",
          "description": "2",
-         "order_Number": 2,
+         "order_number": 2,
          "text": "text for crumb number 2 ",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
          "video": "string",
-         "aR": "string"
+         "ar": "string"
        },
        {
          "trail_id":1,
          "name": "crumb3",
          "description": "3",
-         "order_Number": 3,
+         "order_number": 3,
          "text": "text for crumb number 3 ",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
          "video": "string",
-         "aR": "string"
+         "ar": "string"
        }
      ],
      "Savedtrail": [
@@ -156,8 +156,8 @@
          "type":  "tour",
          "length":  "2 miles",
          "requires_money":  "yes",
-         "start_Crumb":  "1",
-         "end_Crumb":  "4"
+         "start_crumb":  "1",
+         "end_crumb":  "4"
        },
        {
          "user_id":  2 ,
@@ -167,8 +167,8 @@
          "type":  "adventure",
          "length":  "26.3 miles",
          "requires_money":  "no",
-         "start_Crumb":  "2",
-         "end_Crumb":  "7"
+         "start_crumb":  "2",
+         "end_crumb":  "7"
        },
        {
          "user_id":  3 ,
@@ -178,8 +178,8 @@
          "type":  "scavenger hunt",
          "length":  "6 miles",
          "requires_money":  "no",
-         "start_Crumb":  "3",
-         "end_Crumb":  "8"
+         "start_crumb":  "3",
+         "end_crumb":  "8"
        }
      ],
      "Crumb": [
@@ -187,32 +187,32 @@
          "trail_id":1,
          "name": "crumb1",
          "description": "1",
-         "order_Number": 1,
+         "order_number": 1,
          "location": 1,
          "text": "text for crumb number 1 ",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
          "video": "string",
-         "aR": "string"
+         "ar": "string"
        },
        {
          "trail_id":1,
          "name": "crumb2",
          "description": "2",
-         "order_Number": 2,
+         "order_number": 2,
          "text": "text for crumb number 2 ",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
          "video": "string",
-         "aR": "string"
+         "ar": "string"
        },
        {
          "trail_id":1,
          "name": "crumb3",
          "description": "3",
-         "order_Number": 3,
+         "order_number": 3,
          "text": "text for crumb number 3 ",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
          "video": "string",
-         "aR": "string"
+         "ar": "string"
        }
      ],
      "Savedtrail": [
@@ -272,8 +272,8 @@
          "type":  "tour",
          "length":  "2 miles",
          "requires_money":  "yes",
-         "start_Crumb":  "1",
-         "end_Crumb":  "4"
+         "start_crumb":  "1",
+         "end_crumb":  "4"
        },
        {
          "user_id":  2 ,
@@ -283,8 +283,8 @@
          "type":  "adventure",
          "length":  "26.3 miles",
          "requires_money":  "no",
-         "start_Crumb":  "2",
-         "end_Crumb":  "7"
+         "start_crumb":  "2",
+         "end_crumb":  "7"
        },
        {
          "user_id":  3 ,
@@ -294,8 +294,8 @@
          "type":  "scavenger hunt",
          "length":  "6 miles",
          "requires_money":  "no",
-         "start_Crumb":  "3",
-         "end_Crumb":  "8"
+         "start_crumb":  "3",
+         "end_crumb":  "8"
        }
      ],
      "Crumb": [
@@ -303,32 +303,32 @@
          "trail_id":1,
          "name": "crumb1",
          "description": "1",
-         "order_Number": 1,
+         "order_number": 1,
          "location": 1,
          "text": "text for crumb number 1 ",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
          "video": "string",
-         "aR": "string"
+         "ar": "string"
        },
        {
          "trail_id":1,
          "name": "crumb2",
          "description": "2",
-         "order_Number": 2,
+         "order_number": 2,
          "text": "text for crumb number 2 ",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
          "video": "string",
-         "aR": "string"
+         "ar": "string"
        },
        {
          "trail_id":1,
          "name": "crumb3",
          "description": "3",
-         "order_Number": 3,
+         "order_number": 3,
          "text": "text for crumb number 3 ",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
          "video": "string",
-         "aR": "string"
+         "ar": "string"
        }
      ],
      "Savedtrail": [
