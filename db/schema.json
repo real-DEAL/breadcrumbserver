@@ -1,0 +1,96 @@
+{
+
+  "migration_id": 2017031601450788,
+
+  "models": {
+
+    "Crumb": {
+
+      "table": "crumbs",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "trail_id", "type": "int", "properties": {}},
+        {"name": "name", "type": "string", "properties": {}},
+        {"name": "description", "type": "text", "properties": {}},
+        {"name": "order_number", "type": "int", "properties": {}},
+        {"name": "geo_id", "type": "string", "properties": {}},
+        {"name": "latitude", "type": "int", "properties": {}},
+        {"name": "longitude", "type": "int", "properties": {}},
+        {"name": "radius", "type": "int", "properties": {}},
+        {"name": "notification_id", "type": "int", "properties": {}},
+        {"name": "title", "type": "string", "properties": {}},
+        {"name": "small_icon", "type": "string", "properties": {}},
+        {"name": "open_app_on_click", "type": "boolean", "properties": {}},
+        {"name": "vibration", "type": "int", "properties": {}},
+        {"name": "data", "type": "string", "properties": {}},
+        {"name": "text", "type": "text", "properties": {}},
+        {"name": "imgage", "type": "string", "properties": {}},
+        {"name": "video", "type": "string", "properties": {}},
+        {"name": "ar", "type": "string", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
+
+    "Savedtrail": {
+
+      "table": "savedtrails",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "user_id", "type": "int", "properties": {}},
+        {"name": "trail_id", "type": "int", "properties": {}},
+        {"name": "position", "type": "int", "properties": {}},
+        {"name": "time_start", "type": "int", "properties": {}},
+        {"name": "time_sinished", "type": "int", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
+
+    "Trail": {
+
+      "table": "trails",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "user_id", "type": "int", "properties": {}},
+        {"name": "name", "type": "string", "properties": {}},
+        {"name": "description", "type": "text", "properties": {}},
+        {"name": "rating", "type": "int", "properties": {}},
+        {"name": "type", "type": "string", "properties": {}},
+        {"name": "length", "type": "string", "properties": {}},
+        {"name": "requires_money", "type": "string", "properties": {}},
+        {"name": "start_crumb", "type": "int", "properties": {}},
+        {"name": "end_crumb", "type": "int", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
+
+    "User": {
+
+      "table": "users",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "email", "type": "string", "properties": {"unique":true}},
+        {"name": "points", "type": "int", "properties": {}},
+        {"name": "total_completed", "type": "int", "properties": {}},
+        {"name": "current_trail", "type": "int", "properties": {}},
+        {"name": "password", "type": "string", "properties": {}},
+        {"name": "username", "type": "string", "properties": {}},
+        {"name": "profile_picture", "type": "string", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    }
+
+  }
+
+}

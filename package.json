@@ -1,0 +1,27 @@
+{
+  "name": "breadcrumbserver",
+  "version": "0.0.0",
+  "description": "breadcrumbserver",
+  "author": "breadcrumb",
+  "main": "cluster.js",
+  "engines": {
+    "node": "6.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "nodal": "0.13.2"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "~2.4.5"
+  },
+  "scripts": {
+    "test": "mocha ./test/runner.js",
+    "start": "node cluster.js",
+    "worker": "node worker.js"
+  },
+  "private": true
+}

@@ -1,0 +1,353 @@
+{
+
+  "development": {
+    "User":[
+          {
+           "email":"test1@email.com",
+           "points":10,
+           "total_completed":1,
+           "current_trail":1,
+           "password":"password1",
+           "username": "testuser1",
+           "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+         },
+         {
+          "email":"test2@email.com",
+          "points":20,
+          "total_completed":2,
+          "current_trail":2,
+          "password":"password2",
+          "username": "testuser2",
+          "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+        },
+        {
+         "email":"test3@email.com",
+         "points":30,
+         "total_completed":3,
+         "current_trail":3,
+         "password":"password3",
+         "username": "testuser3",
+         "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+       }
+     ],
+     "Trail": [
+       {
+         "user_id":  1,
+         "name":  "test trail1",
+         "description":  "text for test trail 1",
+         "rating":  "3",
+         "type":  "tour",
+         "length":  "2 miles",
+         "requires_money":  "yes",
+         "start_crumb":  "1",
+         "end_crumb":  "4"
+       },
+       {
+         "user_id":  2 ,
+         "name":  "test trail2",
+         "description":  "text for test trail 2",
+         "rating":  "4",
+         "type":  "adventure",
+         "length":  "26.3 miles",
+         "requires_money":  "no",
+         "start_crumb":  "2",
+         "end_crumb":  "7"
+       },
+       {
+         "user_id":  3 ,
+         "name":  "test trail3",
+         "description":  "text for test trail 3",
+         "rating":  "3",
+         "type":  "scavenger hunt",
+         "length":  "6 miles",
+         "requires_money":  "no",
+         "start_crumb":  "3",
+         "end_crumb":  "8"
+       }
+     ],
+     "Crumb": [
+       {
+         "trail_id":1,
+         "name": "crumb1",
+         "description": "1",
+         "order_number": 1,
+         "location": 1,
+         "text": "text for crumb number 1 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "ar": "string"
+       },
+       {
+         "trail_id":1,
+         "name": "crumb2",
+         "description": "2",
+         "order_number": 2,
+         "text": "text for crumb number 2 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "ar": "string"
+       },
+       {
+         "trail_id":1,
+         "name": "crumb3",
+         "description": "3",
+         "order_number": 3,
+         "text": "text for crumb number 3 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "ar": "string"
+       }
+     ],
+     "Savedtrail": [
+      {
+        "user_id": 1,
+        "trail_id": 2,
+        "position": 3,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 2,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      }
+    ]
+
+  },
+
+  "test": {
+    "User":[
+          {
+           "email":"test1@email.com",
+           "points":10,
+           "total_completed":1,
+           "current_trail":1,
+           "password":"password1",
+           "username": "testuser1",
+           "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+         },
+         {
+          "email":"test2@email.com",
+          "points":20,
+          "total_completed":2,
+          "current_trail":2,
+          "password":"password2",
+          "username": "testuser2",
+          "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+        },
+        {
+         "email":"test3@email.com",
+         "points":30,
+         "total_completed":3,
+         "current_trail":3,
+         "password":"password3",
+         "username": "testuser3",
+         "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+       }
+     ],
+     "Trail": [
+       {
+         "user_id":  1,
+         "name":  "test trail1",
+         "description":  "text for test trail 1",
+         "rating":  "3",
+         "type":  "tour",
+         "length":  "2 miles",
+         "requires_money":  "yes",
+         "start_crumb":  "1",
+         "end_crumb":  "4"
+       },
+       {
+         "user_id":  2 ,
+         "name":  "test trail2",
+         "description":  "text for test trail 2",
+         "rating":  "4",
+         "type":  "adventure",
+         "length":  "26.3 miles",
+         "requires_money":  "no",
+         "start_crumb":  "2",
+         "end_crumb":  "7"
+       },
+       {
+         "user_id":  3 ,
+         "name":  "test trail3",
+         "description":  "text for test trail 3",
+         "rating":  "3",
+         "type":  "scavenger hunt",
+         "length":  "6 miles",
+         "requires_money":  "no",
+         "start_crumb":  "3",
+         "end_crumb":  "8"
+       }
+     ],
+     "Crumb": [
+       {
+         "trail_id":1,
+         "name": "crumb1",
+         "description": "1",
+         "order_number": 1,
+         "location": 1,
+         "text": "text for crumb number 1 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "ar": "string"
+       },
+       {
+         "trail_id":1,
+         "name": "crumb2",
+         "description": "2",
+         "order_number": 2,
+         "text": "text for crumb number 2 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "ar": "string"
+       },
+       {
+         "trail_id":1,
+         "name": "crumb3",
+         "description": "3",
+         "order_number": 3,
+         "text": "text for crumb number 3 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "ar": "string"
+       }
+     ],
+     "Savedtrail": [
+      {
+        "user_id": 1,
+        "trail_id": 2,
+        "position": 3,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 2,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      }
+    ]
+
+  },
+  "production": {
+    "User":[
+          {
+           "email":"test1@email.com",
+           "points":10,
+           "total_completed":1,
+           "current_trail":1,
+           "password":"password1",
+           "username": "testuser1",
+           "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+         },
+         {
+          "email":"test2@email.com",
+          "points":20,
+          "total_completed":2,
+          "current_trail":2,
+          "password":"password2",
+          "username": "testuser2",
+          "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+        },
+        {
+         "email":"test3@email.com",
+         "points":30,
+         "total_completed":3,
+         "current_trail":3,
+         "password":"password3",
+         "username": "testuser3",
+         "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg"
+       }
+     ],
+     "Trail": [
+       {
+         "user_id":  1,
+         "name":  "test trail1",
+         "description":  "text for test trail 1",
+         "rating":  "3",
+         "type":  "tour",
+         "length":  "2 miles",
+         "requires_money":  "yes",
+         "start_crumb":  "1",
+         "end_crumb":  "4"
+       },
+       {
+         "user_id":  2 ,
+         "name":  "test trail2",
+         "description":  "text for test trail 2",
+         "rating":  "4",
+         "type":  "adventure",
+         "length":  "26.3 miles",
+         "requires_money":  "no",
+         "start_crumb":  "2",
+         "end_crumb":  "7"
+       },
+       {
+         "user_id":  3 ,
+         "name":  "test trail3",
+         "description":  "text for test trail 3",
+         "rating":  "3",
+         "type":  "scavenger hunt",
+         "length":  "6 miles",
+         "requires_money":  "no",
+         "start_crumb":  "3",
+         "end_crumb":  "8"
+       }
+     ],
+     "Crumb": [
+       {
+         "trail_id":1,
+         "name": "crumb1",
+         "description": "1",
+         "order_number": 1,
+         "location": 1,
+         "text": "text for crumb number 1 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "ar": "string"
+       },
+       {
+         "trail_id":1,
+         "name": "crumb2",
+         "description": "2",
+         "order_number": 2,
+         "text": "text for crumb number 2 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "ar": "string"
+       },
+       {
+         "trail_id":1,
+         "name": "crumb3",
+         "description": "3",
+         "order_number": 3,
+         "text": "text for crumb number 3 ",
+         "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/",
+         "video": "string",
+         "ar": "string"
+       }
+     ],
+     "Savedtrail": [
+      {
+        "user_id": 1,
+        "trail_id": 2,
+        "position": 3,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 2,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      }
+    ]
+
+  }
+
+}
