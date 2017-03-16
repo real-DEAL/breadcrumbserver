@@ -10,7 +10,7 @@
 
       "columns": [
         {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
-        {"name": "crumbtrail_id", "type": "int", "properties": {}},
+        {"name": "trail_id", "type": "int", "properties": {}},
         {"name": "name", "type": "string", "properties": {}},
         {"name": "description", "type": "text", "properties": {}},
         {"name": "order_number", "type": "int", "properties": {}},
@@ -41,7 +41,7 @@
       "columns": [
         {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
         {"name": "user_id", "type": "int", "properties": {}},
-        {"name": "crumbtrail_id", "type": "int", "properties": {}},
+        {"name": "trail_id", "type": "int", "properties": {}},
         {"name": "position", "type": "int", "properties": {}},
         {"name": "time_start", "type": "int", "properties": {}},
         {"name": "time_finished", "type": "int", "properties": {}},

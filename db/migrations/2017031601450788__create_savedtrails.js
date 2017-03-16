@@ -12,7 +12,7 @@ class CreateSavedtrails extends Nodal.Migration {
   up() {
 
     return [
-      this.createTable("savedtrails", [{"name":"user_id","type":"int"},{"name":"crumbtrail_id","type":"int"},{"name":"position","type":"int"},{"name":"time_start","type":"int"},{"name":"time_finished","type":"int"}])
+      this.createTable("savedtrails", [{"name":"user_id","type":"int"},{"name":"trail_id","type":"int"},{"name":"position","type":"int"},{"name":"time_start","type":"int"},{"name":"time_finished","type":"int"}])
     ];
 
   }
