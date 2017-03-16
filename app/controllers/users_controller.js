@@ -14,10 +14,11 @@ class UsersController extends Nodal.Controller {
       .end((err, models) => {
         this.respond(err || models, [
           'username',
-          'points',
+          'score',
           'total_completed',
           'current_trail',
           'profile_picture',
+          'social_login',
           { trail: ['id'] },
           { savedtrail: ['id'] },
         ]);
