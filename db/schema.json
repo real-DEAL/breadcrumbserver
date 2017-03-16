@@ -1,8 +1,29 @@
 {
 
-  "migration_id": 2017031600502702,
+  "migration_id": 2017031601234000,
 
   "models": {
+
+    "Trail": {
+
+      "table": "trails",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "user_id", "type": "int", "properties": {}},
+        {"name": "name", "type": "string", "properties": {}},
+        {"name": "description", "type": "text", "properties": {}},
+        {"name": "rating", "type": "int", "properties": {}},
+        {"name": "type", "type": "string", "properties": {}},
+        {"name": "length", "type": "string", "properties": {}},
+        {"name": "requires_money", "type": "string", "properties": {}},
+        {"name": "start_crumb", "type": "int", "properties": {}},
+        {"name": "end_crumb", "type": "int", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
 
     "User": {
 
