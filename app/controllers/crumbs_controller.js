@@ -9,26 +9,7 @@ class CrumbsController extends Nodal.Controller {
     Crumb.query()
       .where(this.params.query)
       .end((err, models) => {
-        this.respond(err || models, [
-          'trail_id',
-          'name',
-          'description',
-          'order_number',
-          'geoId',
-          'latitude',
-          'longitude',
-          'radius',
-          'notification_id',
-          'title',
-          'small_icon',
-          'open_app_on_click',
-          'vibration',
-          'data',
-          'text',
-          'image',
-          'video',
-          'aR',
-        ]);
+        this.respond(err || models);
       });
   }
   show() {
@@ -46,11 +27,11 @@ class CrumbsController extends Nodal.Controller {
       this.respond(err || model);
     });
   }
-  destroy() {
-    Crumb.destroy(this.params.route.id, (err, model) => {
-      this.respond(err || model);
-    });
-  }
+  // destroy() {
+  //   Crumb.destroy(this.params.route.id, (err, model) => {
+  //     this.respond(err || model);
+  //   });
+  // }
 }
 
 module.exports = CrumbsController;

@@ -28,7 +28,9 @@ class TrailsController extends Nodal.Controller {
           'end_crumb',
           'created_at',
           'updated_at',
-          { crumb: ['trail_id',
+          { crumb: [
+            'id',
+            'trail_id',
             'name',
             'description',
             'order_number',
@@ -51,7 +53,42 @@ class TrailsController extends Nodal.Controller {
   }
   show() {
     Trail.find(this.params.route.id, (err, model) => {
-      this.respond(err || model);
+      this.respond(err || model, [
+        'id',
+        'user_id',
+        'name',
+        'description',
+        'rating',
+        'type',
+        'transport',
+        'length',
+        'difficulty',
+        'map',
+        'time',
+        'requires_money',
+        'start_crumb',
+        'end_crumb',
+        'created_at',
+        'updated_at',
+        { crumb: ['trail_id',
+          'name',
+          'description',
+          'order_number',
+          'geoid',
+          'latitude',
+          'longitude',
+          'radius',
+          'notification_id',
+          'title',
+          'small_icon',
+          'open_app_on_click',
+          'vibration',
+          'data',
+          'text',
+          'image',
+          'video',
+          'ar'] },
+      ]);
     });
   }
   create() {
@@ -64,11 +101,11 @@ class TrailsController extends Nodal.Controller {
       this.respond(err || model);
     });
   }
-  destroy() {
-    Trail.destroy(this.params.route.id, (err, model) => {
-      this.respond(err || model);
-    });
-  }
+  // destroy() {
+  //   Trail.destroy(this.params.route.id, (err, model) => {
+  //     this.respond(err || model);
+  //   });
+  // }
 }
 
 module.exports = TrailsController;
