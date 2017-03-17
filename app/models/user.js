@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 
 const Nodal = require('nodal');
 const bcrypt = require('bcryptjs');
