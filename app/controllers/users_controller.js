@@ -58,11 +58,11 @@ class UsersController extends Nodal.Controller {
       ]);
     });
   }
-    destroy() {
-      User.destroy(this.params.route.id, (err, model) => {
-        this.respond(err || model);
-      });
-    }
+  destroy() {
+    User.destroy(this.params.route.id, (err, model) => {
+      this.respond(err || model);
+    });
+  }
 }
 
 module.exports = UsersController;
