@@ -24,8 +24,8 @@ class TrailsController extends Nodal.Controller {
           'map',
           'time',
           'requires_money',
-          'start_crumb',
-          'end_crumb',
+          // 'start_crumb',
+          // 'end_crumb',
           'created_at',
           'updated_at',
           { crumb: [
