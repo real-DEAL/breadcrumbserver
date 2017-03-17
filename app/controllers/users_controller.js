@@ -26,17 +26,36 @@ class UsersController extends Nodal.Controller {
   }
   show() {
     User.find(this.params.route.id, (err, model) => {
-      this.respond(err || model);
+      this.respond(err || model, [
+        'username',
+        'score',
+        'total_completed',
+        'current_trail',
+        'profile_picture',
+        'social_login',
+        { trail: ['id'] },
+        { savedtrail: ['id'] },
+      ]);
     });
   }
   create() {
     User.create(this.params.body, (err, model) => {
+      // TODO update so that the user model doesn't return ;
       this.respond(err || model);
     });
   }
   update() {
     User.update(this.params.route.id, this.params.body, (err, model) => {
-      this.respond(err || model);
+      this.respond(err || model, [
+        'username',
+        'score',
+        'total_completed',
+        'current_trail',
+        'profile_picture',
+        'social_login',
+        { trail: ['id'] },
+        { savedtrail: ['id'] },
+      ]);
     });
   }
   destroy() {
