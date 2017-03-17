@@ -27,11 +27,11 @@ class SavedtrailsController extends Nodal.Controller {
       this.respond(err || model);
     });
   }
-  // destroy() {
-  //   Savedtrail.destroy(this.params.route.id, (err, model) => {
-  //     this.respond(err || model);
-  //   });
-  // }
+  destroy() {
+    Savedtrail.destroy(this.params.route.id, (err, model) => {
+      this.respond(err || model);
+    });
+  }
 
 }
 
