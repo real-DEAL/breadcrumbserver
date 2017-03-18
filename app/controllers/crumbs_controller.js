@@ -27,11 +27,11 @@ class CrumbsController extends Nodal.Controller {
       this.respond(err || model);
     });
   }
-  // destroy() {
-  //   Crumb.destroy(this.params.route.id, (err, model) => {
-  //     this.respond(err || model);
-  //   });
-  // }
+  destroy() {
+    Crumb.destroy(this.params.route.id, (err, model) => {
+      this.respond(err || model);
+    });
+  }
 }
 
 module.exports = CrumbsController;
