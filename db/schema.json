@@ -85,7 +85,7 @@
         {"name": "total_completed", "type": "int", "properties": {}},
         {"name": "current_trail", "type": "int", "properties": {}},
         {"name": "password", "type": "string", "properties": {}},
-        {"name": "username", "type": "string", "properties": {}},
+        {"name": "username", "type": "string", "properties": {"unique":true}},
         {"name": "profile_picture", "type": "string", "properties": {}},
         {"name": "social_login", "type": "string", "properties": {}},
         {"name": "created_at", "type": "datetime", "properties": {}},

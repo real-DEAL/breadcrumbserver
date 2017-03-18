@@ -28,8 +28,8 @@ class CrumbsController extends Nodal.Controller {
     });
   }
   destroy() {
-    Crumb.destroy(this.params.route.id, (err, model) => {
-      this.respond(err || model);
+    Crumb.destroy(this.params.route.id, (err) => {
+      this.respond(err || 'Crumb has been deleted');
     });
   }
 }
