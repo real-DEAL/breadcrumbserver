@@ -3,7 +3,7 @@
 const Nodal = require('nodal');
 
 const Trail = Nodal.require('app/models/trail.js');
-
+const rp = require('request-promise');
 class TrailsController extends Nodal.Controller {
 
   index() {
@@ -102,8 +102,22 @@ class TrailsController extends Nodal.Controller {
     });
   }
   destroy() {
-    Trail.destroy(this.params.route.id, (err, model) => {
-      this.respond(err || model);
+    const trailId = this.params.route.id;
+    Trail.destroy(trailId, (err, model) => {
+      // this.respond(err || model);
+      rp({ method: 'GET', uri: `http://localhost:3000/crumbs?trail_id=${trailId}` })
+        .then((crumbs) => {
+          console.warn('crumbs')
+          JSON.parse(crumbs).data.forEach((crumb) => {
+            console.log(crumb);
+            rp({ method: 'DELETE', uri: `http://localhost:3000/crumbs/${crumb.id}` })
+            .then((deletedcrumbs) => { console.warn(`deleted${deletedcrumbs}`); })
+            .catch((error) =>{ console.warn(`Error deleting crumbs`)});
+          });
+        })
+        .catch((error) => {
+          this.respond(`There was an error deleting this trail: ${error}`);
+        });
     });
   }
 }
