@@ -33,7 +33,9 @@ class TrailsController extends Nodal.Controller {
           { crumb: [
             'id',
             'trail_id',
+            'challenge',
             'name',
+            'address',
             'description',
             'order_number',
             'geoid',

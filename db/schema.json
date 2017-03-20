@@ -24,6 +24,8 @@
         {"name": "open_app_on_click", "type": "boolean", "properties": {}},
         {"name": "vibration", "type": "int", "properties": {}},
         {"name": "data", "type": "string", "properties": {}},
+        {"name": "challenge", "type": "json", "properties": {}},
+        {"name": "address", "type": "string", "properties": {}},
         {"name": "text", "type": "text", "properties": {}},
         {"name": "image", "type": "string", "properties": {}},
         {"name": "video", "type": "string", "properties": {}},

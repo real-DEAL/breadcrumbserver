@@ -27,6 +27,8 @@ class CreateCrumbs extends Nodal.Migration {
         { name: 'vibration', type: 'int' },
         { name: 'data', type: 'string' },
         // TODO:these are the rewards;
+        { name: 'challenge', type: 'json' },
+        { name: 'address', type: 'string' },
         { name: 'text', type: 'text' },
         { name: 'image', type: 'string' },
         { name: 'video', type: 'string' },
