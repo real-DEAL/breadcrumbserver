@@ -92,7 +92,23 @@
          "text": "Operation Spark!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 1,
@@ -111,7 +127,15 @@
          "text": "Operation Spark!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 1,
@@ -130,7 +154,15 @@
          "text": "Operation Spark!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 2,
@@ -149,7 +181,15 @@
          "text": "Operation Spark!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 2,
@@ -168,7 +208,15 @@
          "text": "Lee Circle!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 2,
@@ -187,7 +235,15 @@
          "text": "The Cafe at the CAC!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 2,
@@ -206,7 +262,15 @@
          "text": "Degas Gallery!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        }
      ],
      "Savedtrail": [
@@ -319,7 +383,15 @@
          "text": "Operation Spark!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 1,
@@ -338,7 +410,15 @@
          "text": "Operation Spark!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 1,
@@ -357,7 +437,15 @@
          "text": "Operation Spark!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 2,
@@ -376,7 +464,15 @@
          "text": "Operation Spark!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 2,
@@ -395,7 +491,15 @@
          "text": "Lee Circle!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 2,
@@ -414,7 +518,15 @@
          "text": "The Cafe at the CAC!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 2,
@@ -433,7 +545,15 @@
          "text": "Degas Gallery!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        }
      ],
      "Savedtrail": [
@@ -545,7 +665,15 @@
          "text": "Operation Spark!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 1,
@@ -564,7 +692,15 @@
          "text": "Operation Spark!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 1,
@@ -583,7 +719,15 @@
          "text": "Operation Spark!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 2,
@@ -602,7 +746,15 @@
          "text": "Operation Spark!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 2,
@@ -621,7 +773,15 @@
          "text": "Lee Circle!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 2,
@@ -640,7 +800,15 @@
          "text": "The Cafe at the CAC!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        },
        {
          "trail_id": 2,
@@ -659,7 +827,15 @@
          "text": "Degas Gallery!!!!",
          "image": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1455596221531/ (162KB)",
          "video": "string",
-         "ar": "string"
+         "ar": "string",
+         "clue": "I hope this helps you find it",
+         "challenge": {
+              "type":"picture",
+              "keywords": ["flower", "pot", "plant", "petals", "petal"],
+              "detection":"label"
+
+         },
+         "media_text": "text for your rewards"
        }
      ],
      "Savedtrail": [

@@ -20,7 +20,10 @@ class CreateUsers extends Nodal.Migration {
           { name: 'total_completed', type: 'int' },
           { name: 'current_trail', type: 'int' },
           { name: 'password', type: 'string' },
-          { name: 'username', type: 'string' },
+        { name: 'username',
+          type: 'string',
+          properties:
+            { unique: true } },
           { name: 'profile_picture', type: 'string' },
           { name: 'social_login', type: 'string' },
       ]),

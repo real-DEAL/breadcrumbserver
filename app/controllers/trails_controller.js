@@ -1,9 +1,11 @@
+/* eslint no-console: ["error", { allow: ["warn", "error"] }] */
 'use strict';
 
 const Nodal = require('nodal');
 
 const Trail = Nodal.require('app/models/trail.js');
 const rp = require('request-promise');
+
 class TrailsController extends Nodal.Controller {
 
   index() {
@@ -29,12 +31,14 @@ class TrailsController extends Nodal.Controller {
           'created_at',
           'updated_at',
           { crumb: [
+            'media_text',
             'id',
             'trail_id',
+            'challenge',
             'name',
+            'address',
             'description',
             'order_number',
-            'geoid',
             'latitude',
             'longitude',
             'radius',
@@ -47,6 +51,7 @@ class TrailsController extends Nodal.Controller {
             'text',
             'image',
             'video',
+            'clue',
             'ar'] },
         ]);
       });
@@ -71,10 +76,10 @@ class TrailsController extends Nodal.Controller {
         'created_at',
         'updated_at',
         { crumb: ['trail_id',
+          'media_text',
           'name',
           'description',
           'order_number',
-          'geoid',
           'latitude',
           'longitude',
           'radius',
@@ -103,21 +108,22 @@ class TrailsController extends Nodal.Controller {
   }
   destroy() {
     const trailId = this.params.route.id;
-    Trail.destroy(trailId, (err, model) => {
-      // this.respond(err || model);
-      rp({ method: 'GET', uri: `http://localhost:3000/crumbs?trail_id=${trailId}` })
+    Trail.destroy(trailId, (err) => {
+      rp({ method: 'GET', uri: `${Nodal.my.Config.secrets.host}${Nodal.my.Config.secrets.port}/crumbs?trail_id=${trailId}` })
         .then((crumbs) => {
-          console.warn('crumbs')
-          JSON.parse(crumbs).data.forEach((crumb) => {
-            console.log(crumb);
-            rp({ method: 'DELETE', uri: `http://localhost:3000/crumbs/${crumb.id}` })
-            .then((deletedcrumbs) => { console.warn(`deleted${deletedcrumbs}`); })
-            .catch((error) =>{ console.warn(`Error deleting crumbs`)});
-          });
+          const crumbList = JSON.parse(crumbs).data;
+          if (crumbList[0]) {
+            crumbList.forEach((crumb) => {
+              rp({ method: 'DELETE', uri: `${Nodal.my.Config.secrets.host}${Nodal.my.Config.secrets.port}/crumbs/${crumb.id}` })
+              // .then((deletedcrumbs) => { console.warn(`deleted${deletedcrumbs}`); })
+              .catch((error) => { console.warn(`Error deleting crumbs: ${error}`); });
+            });
+          }
         })
         .catch((error) => {
           this.respond(`There was an error deleting this trail: ${error}`);
         });
+      this.respond(err || `Trail number ${trailId} has been deleted!`);
     });
   }
 }
