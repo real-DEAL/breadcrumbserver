@@ -14,9 +14,9 @@ class CreateCrumbs extends Nodal.Migration {
       this.createTable('crumbs', [
         { name: 'trail_id', type: 'int' },
         { name: 'name', type: 'string' },
+        { name: 'clue', type: 'string' },
         { name: 'description', type: 'text' },
         { name: 'order_number', type: 'int' },
-        { name: 'geo_id', type: 'string' },
         { name: 'latitude', type: 'float' },
         { name: 'longitude', type: 'float' },
         { name: 'radius', type: 'int' },
@@ -29,6 +29,7 @@ class CreateCrumbs extends Nodal.Migration {
         // TODO:these are the rewards;
         { name: 'challenge', type: 'json' },
         { name: 'address', type: 'string' },
+        { name: 'media_text', type: 'string' },
         { name: 'text', type: 'text' },
         { name: 'image', type: 'string' },
         { name: 'video', type: 'string' },
