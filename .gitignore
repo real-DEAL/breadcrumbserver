@@ -3,3 +3,4 @@
 .npmignore
 .eslintrc.js
 node_modules
+npm-debug.log
