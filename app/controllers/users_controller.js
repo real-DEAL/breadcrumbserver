@@ -13,6 +13,7 @@ class UsersController extends Nodal.Controller {
       .join('savedtrail')
       .end((err, models) => {
         this.respond(err || models, [
+          'email',
           'username',
           'score',
           'total_completed',
@@ -27,6 +28,7 @@ class UsersController extends Nodal.Controller {
   show() {
     User.find(this.params.route.id, (err, model) => {
       this.respond(err || model, [
+        'email',
         'username',
         'score',
         'total_completed',
