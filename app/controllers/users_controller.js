@@ -43,7 +43,15 @@ class UsersController extends Nodal.Controller {
   create() {
     User.create(this.params.body, (err, model) => {
       // TODO update so that the user model doesn't return ;
-      this.respond(err || model);
+      this.respond(err || model, [
+        'email',
+        'username',
+        'score',
+        'total_completed',
+        'current_trail',
+        'profile_picture',
+        'social_login',
+      ]);
     });
   }
   update() {

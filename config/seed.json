@@ -33,14 +33,14 @@
          "social_login": null
        },
        {
-        "email":"Olivia@email.com",
+        "email":"c.phrush@gmail.com",
         "score":30,
         "total_completed":3,
         "current_trail":3,
         "password":"password",
         "username": "Liv-Rush",
         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
-        "social_login": null
+        "social_login": "auth0|58d403842da1ce3061e5e0de"
       }
      ],
      "Trail": [
@@ -679,15 +679,14 @@
          "social_login": null
        },
        {
-        "email":"Olivia@email.com",
+        "email":"c.phrush@gmail.com",
         "score":30,
         "total_completed":3,
         "current_trail":3,
         "password":"password",
         "username": "Liv-Rush",
         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
-        "social_login": null
-      }
+        "social_login": "auth0|58d403842da1ce3061e5e0de"      }
      ],
      "Trail": [
        {
@@ -1325,14 +1324,14 @@
          "social_login": null
        },
        {
-        "email":"Olivia@email.com",
+        "email":"c.phrush@gmail.com",
         "score":30,
         "total_completed":3,
         "current_trail":3,
         "password":"password",
         "username": "Liv-Rush",
         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
-        "social_login": null
+        "social_login": "auth0|58d403842da1ce3061e5e0de"
       }
      ],
      "Trail": [
