@@ -3,42 +3,52 @@
   "development": {
     "User":[
           {
-           "email":"test1@email.com",
+           "email":"Eric@email.com",
            "score":10,
            "total_completed":1,
            "current_trail":1,
-           "password":"password1",
-           "username": "testuser1",
-           "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg",
-           "social_login": "I can be very social"
+           "password":"password",
+           "username": "Eperiou",
+           "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490230012/eric_ldbbsw.jpg",
+           "social_login": null
          },
          {
-          "email":"test2@email.com",
+          "email":"Alice@email.com",
           "score":20,
           "total_completed":2,
           "current_trail":2,
-          "password":"password2",
-          "username": "testuser2",
-          "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg",
-          "social_login": "I can be very social"
+          "password":"password",
+          "username": "Aplai168",
+          "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227847/alice_rruimm.jpg",
+          "social_login": null
         },
         {
-         "email":"test3@email.com",
+         "email":"Devin@email.com",
          "score":30,
          "total_completed":3,
          "current_trail":3,
-         "password":"password3",
-         "username": "testuser3",
-         "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg",
-         "social_login": "I can be very social"
-       }
+         "password":"password",
+         "username": "DeFields",
+         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490230048/devin_dk0ri6.jpg",
+         "social_login": null
+       },
+       {
+        "email":"Olivia@email.com",
+        "score":30,
+        "total_completed":3,
+        "current_trail":3,
+        "password":"password",
+        "username": "Liv-Rush",
+        "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
+        "social_login": null
+      }
      ],
      "Trail": [
        {
          "user_id": 1,
-         "name": "St.Pats march to Rouses",
+         "name": "March to Rouses",
          "description": "This is the ultimate test of endurance, make your way from St.Patricks church all the way to Rouses",
-         "rating": 4,
+         "rating": 3,
          "type": "tour",
          "transport": "walk",
          "length": "1 miles",
@@ -49,22 +59,9 @@
        },
        {
          "user_id": 1,
-         "name": "Saunter on down to oneshell square",
-         "description": "Grab some coffee head around the bend before returning to work ",
-         "rating": 5,
-         "type": "break",
-         "transport": "walk",
-         "length": "2 miles",
-         "difficulty": 5,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 30 mins",
-         "requires_money": true
-       },
-       {
-         "user_id": 1,
          "name": "Eric's places",
          "description": "The full experience",
-         "rating": 5,
+         "rating": 3,
          "type": "adventure",
          "transport": "bike",
          "length": "10 miles",
@@ -77,10 +74,23 @@
          "user_id": 2,
          "name": "Breadcrumb Presentation",
          "description": "Just a little taste of the crumb",
-         "rating": 5,
+         "rating": 3,
          "type": "tour",
          "transport": "walk",
          "length": "a couple blocks",
+         "difficulty": 4,
+         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+         "time": "est 30 mins",
+         "requires_money": true
+       },
+       {
+         "user_id": 1,
+         "name": "Famous people",
+         "description": "This tour will take you to some of the famous statues in the CBD",
+         "rating": 3,
+         "type": "tour",
+         "transport": "walk",
+         "length": "2 miles",
          "difficulty": 5,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 30 mins",
@@ -93,8 +103,8 @@
          "name": "St. Patty's church",
          "description": "The church right next to operation spark",
          "order_number": 1,
-         "latitude": 29.946581,
-         "longitude": -90.06975,
+         "latitude": 29.946597,
+         "longitude": -90.069851,
          "radius": 100,
          "notification_id": 2,
          "title": "You found  St.Patricks church",
@@ -104,7 +114,7 @@
          "data": "",
          "text": "This is St patricks church, congrats you made it",
          "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "I hope you found it cause its cool ",
          "challenge": {
@@ -120,8 +130,8 @@
          "name": "Pulp n grind",
          "description": "The soulful coffeeshop",
          "order_number": 2,
-         "latitude": 29.947102,
-         "longitude": -90.0719217,
+         "latitude": 29.947143,
+         "longitude": -90.069855,
          "radius": 100,
          "notification_id": 2,
          "title": "Where you get the go fast juice",
@@ -131,7 +141,7 @@
          "data": "",
          "text": "yummy coffee",
          "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "Find the place where you can get Oj and coffee",
          "challenge": {
@@ -147,8 +157,8 @@
          "name": "Operation Spark",
          "description": "The Beginning",
          "order_number": 2,
-         "latitude": 29.947102,
-         "longitude": -90.0719217,
+         "latitude": 29.945972,
+         "longitude": -90.070166,
          "radius": 100,
          "notification_id": 2,
          "title": "This is the place from whence you came",
@@ -158,7 +168,7 @@
          "data": "",
          "text": "A Triumphant return to Operation Spark",
          "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "Return to the place you did depart, you should know its well, cause it was the start.",
          "challenge": {
@@ -174,8 +184,8 @@
          "name": "St. Patty's church",
          "description": "The church right next to operation spark",
          "order_number": 1,
-         "latitude": 29.946581,
-         "longitude": -90.06975,
+         "latitude": 29.946597,
+         "longitude": -90.069851,
          "radius": 100,
          "notification_id": 2,
          "title": "You found  St.Patricks church",
@@ -185,7 +195,7 @@
          "data": "",
          "text": "This is St patricks church, congrats you made it",
          "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "I hope you found it cause its cool ",
          "challenge": {
@@ -201,8 +211,8 @@
          "name": "Between the bread",
          "description": "the awesome sammy shop",
          "order_number": 2,
-         "latitude": 29.9479894,
-         "longitude": -90.0711672,
+         "latitude": 29.947914,
+         "longitude": -90.071242,
          "radius": 100,
          "notification_id": 2,
          "title": "you found between the bread",
@@ -212,7 +222,7 @@
          "data": "",
          "text": "This is the bread zone where you get awesome sammies",
          "image": "https://previews.123rf.com/images/bhofack2/bhofack21106/bhofack2110600425/9864525-A-large-turkey-sandwhich-with-tomatoes-cheese-and-lettuce-Stock-Photo.jpg",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "This is going to be a tasty one",
          "challenge": {
@@ -221,15 +231,15 @@
               "detection":"label"
 
          },
-         "media_text": "Congratulations, here is yourREWARD TEXT"
+         "media_text": "Congratulations on makeing it here you've definitely earned a delicious Triple Club sandwich for your troubles"
        },
        {
          "trail_id": 1,
          "name": "Rouses where you get the food",
          "description": "This is a great place to make some groceries",
          "order_number": 3,
-         "latitude": 29.9477665,
-         "longitude": -90.0739643,
+         "latitude": 29.947672,
+         "longitude": -90.073997,
          "radius": 100,
          "notification_id": 2,
          "title": "Rouses title",
@@ -239,7 +249,7 @@
          "data": "",
          "text": "This is where you'll make dem groceries",
          "image": "http://static.panoramio.com/photos/large/77018914.jpg",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "This is where you make dem groceries",
          "challenge": {
@@ -255,8 +265,8 @@
         "name": "Pulp n grind",
         "description": "The soulful coffeeshop",
         "order_number": 1,
-        "latitude": 29.947102,
-        "longitude": -90.0719217,
+        "latitude": 29.947143,
+        "longitude": -90.069855,
         "radius": 100,
         "notification_id": 2,
         "title": "Where you get the go fast juice",
@@ -266,7 +276,7 @@
         "data": "",
         "text": "yummy coffee",
         "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "Find the place where you can get Oj and coffee",
         "challenge": {
@@ -282,8 +292,8 @@
         "name": "The second Corner",
         "description": "A short stroll accross the park to find the next mark",
         "order_number": 2,
-        "latitude": 29.948643,
-        "longitude": -90.069560,
+        "latitude": 29.948650,
+        "longitude": -90.069566,
         "radius": 100,
         "notification_id": 2,
         "title": "This is the next place on the list",
@@ -293,7 +303,7 @@
         "data": "",
         "text": "yummy coffeet",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BenFranklinDuplessis.jpg/220px-BenFranklinDuplessis.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "a short Jaunt past Franklins mount, its just one more if you can count",
         "challenge": {
@@ -320,7 +330,7 @@
         "data": "",
         "text": "yummy coffeet",
         "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "a short walk around the corner",
         "challenge": {
@@ -336,8 +346,8 @@
         "name": "The Bulldog",
         "description": "The bulldog, one of the best places to stop and grab a pint. Feel free to stop in and grab a quick one",
         "order_number": 1,
-        "latitude": 29.983613,
-        "longitude": -90.110149,
+        "latitude": 29.983598,
+        "longitude": -90.110222,
         "radius": 100,
         "notification_id": 2,
         "title": "the bulldog",
@@ -347,7 +357,7 @@
         "data": "",
         "text": "You've made it to the bulldog",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clyde_The_Bulldog.jpg/220px-Clyde_The_Bulldog.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "This is a quick spot to grab a beverage in mid-city so feel free to stop in for a pint",
         "challenge": {
@@ -363,8 +373,8 @@
         "name": "Pat'O's ",
         "description": "Come join the dueling pianos and try the World famous hurricane",
         "order_number": 2,
-        "latitude": 29.958226,
-        "longitude":  -90.065207,
+        "latitude": 29.958182,
+        "longitude": -90.065216,
         "radius": 100,
         "notification_id": 2,
         "title": "Pat O's",
@@ -374,7 +384,7 @@
         "data": "",
         "text": "Pat O's piano bar",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clyde_The_Bulldog.jpg/220px-Clyde_The_Bulldog.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "This is the home of the world famous dueling piano lounge",
         "challenge": {
@@ -390,8 +400,8 @@
         "name": "Port O' Call",
         "description": "This is a popular pirate bar in the bywater area. It's famous for its fun atmosphere, cool drinks, and hearty steaks. Stop in and stay awhile.",
         "order_number": 3,
-        "latitude": 29.964380,
-        "longitude": -90.061716,
+        "latitude": 29.964409,
+        "longitude": -90.061745,
         "radius": 100,
         "notification_id": 2,
         "title": "Port O' Call",
@@ -401,7 +411,7 @@
         "data": "",
         "text": "Port O'Call",
         "image": "https://s-media-cache-ak0.pinimg.com/originals/d9/fc/11/d9fc1116abab0f13f35758daab6d18b0.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "This is a hideaway for hungry pirates and late night partiers, a pirate bar on esplanade",
         "challenge": {
@@ -411,12 +421,190 @@
 
         },
         "media_text": "Your victory for this is a tasty dinner and cool beverage"
+      },
+      {
+        "trail_id": 5,
+        "name": "Ignatius Reilly",
+        "description": "This person made famous in The Confederacy of Dunces has a statue guarding the gates to the quarter.",
+        "order_number": 1,
+        "latitude": 29.954365,
+        "longitude": -90.070268,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "Ignatius Reilly has been found ",
+        "image": "http://deepsouthmag.com/wp-content/uploads/2012/12/ignatius-statue.jpg",
+        "video": "https://www.youtube.com/embed/eGYHxBfW3gs",
+        "ar": "string",
+        "clue": "New Orleans Don Quixote made famous by John Toole",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "glass", "hat", "person", "statue"],
+             "detection":"label"
+
+        },
+        "media_text": "Ignatius Jacques Reilly is something of a modern Don Quixote—eccentric, idealistic, and creative, sometimes to the point of delusion.[2] In his foreword to the book, Walker Percy describes Ignatius as a 'slob extraordinary, a mad Oliver Hardy, a fat Don Quixote, a perverse Thomas Aquinas rolled into one'. He disdains modernity, particularly pop culture. The disdain becomes his obsession: he goes to movies in order to mock their perversity and express his outrage with the contemporary world's lack of 'theology and geometry'. He prefers the scholastic philosophy of the Middle Ages, and the Early Medieval philosopher Boethius in particular.[4] However, he also enjoys many modern comforts and conveniences and is given to claiming that the rednecks of rural Louisiana hate all modern technology which they associate with progress. The workings of his pyloric valve play an important role in his life, reacting strongly to incidents in a fashion that he likens to Cassandra in terms of prophetic significance."
+      },
+      {
+        "trail_id": 5,
+        "name": "The Fat Man",
+        "description": "This artist is a New Orleans rhythmn and Blues legend, with famous songs such as 'I'm Walkin', and 'Whole Lotta Loving'",
+        "order_number": 2,
+        "latitude": 29.955785,
+        "longitude": -90.068341,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "You Found musicians square",
+        "image": "http://deepsouthmag.com/wp-content/uploads/2012/12/ignatius-statue.jpg",
+        "video": "https://www.youtube.com/embed/xbfMlk1PwGU",
+        "ar": "string",
+        "clue": "This famous New Orleans musicians can be found nestled with several friends.",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "glass", "hat", "person", "statue"],
+             "detection":"label"
+
+        },
+        "media_text": "Musical Legends Park is centrally located at 311 Bourbon Street. The heart of the Park is a tribute to New Orleans Musical Legends and includes a series of commemorative displays, plaques and artwork. The Park provides a warm, intimate escape for local and visiting music lovers. Musicians are invited to play for outdoor audiences. Performances are free to the public."
+      },
+      {
+        "trail_id": 5,
+        "name": "And He's Feelin Fine",
+        "description": "Find the Big Chief of Professor Longhair fame",
+        "order_number": 3,
+        "latitude": 29.961947,
+        "longitude": -90.068571,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "You should hear the music by now",
+        "image": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/601586_10102075751823735_1413692644_n.jpg?oh=fb1d5b942a082f7a2763f0c9b6105fe2&oe=596C9815",
+        "video": "https://www.youtube.com/embed/0UWBO4r11AY",
+        "ar": "string",
+        "clue": "This Mardi Gras Indian is found celebrating still today in the park of a famous musician found with Fats Domino",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "glass", "hat", "person", "statue"],
+             "detection":"label"
+
+        },
+        "media_text": "From age four in 1937 to his death in 1998, Donald Harrison Sr. embraced the tradition of New Orleans' Mardi Gras Indians. As Big Chief of the Guardian of the Flames, he led with both wisdom and passion. This biography of this remarkable man is based on more than seventy interviews with his family and others he influenced."
+      },
+      {
+        "trail_id": 5,
+        "name": "The Maid",
+        "description": "She was known as the heroine of France",
+        "order_number": 3,
+        "latitude": 29.961947,
+        "longitude": -90.068571,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "You should hear the music by now",
+        "image": "http://cdn.thedailybeast.com/content/dailybeast/articles/2015/06/08/the-joan-of-arc-nobody-knows/jcr:content/image.crop.800.500.jpg/47793520.cached.jpg",
+        "video": "https://www.youtube.com/embed/0q3uAu1EuRc",
+        "ar": "string",
+        "clue": "Find the Maid of Orleans",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "glass", "hat", "person", "statue"],
+             "detection":"label"
+
+        },
+        "media_text": "The uncrowned King Charles VII sent Joan to the siege of Orléans as part of a relief mission. She gained prominence after the siege was lifted only nine days later. Several additional swift victories led to Charles VII's coronation at Reims. This long-awaited event boosted French morale and paved the way for the final French victory."
       }
      ],
      "Savedtrail": [
       {
-        "user_id": 1,
+        "user_id": 4,
+        "trail_id": 4,
+        "position": 2,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 4,
         "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 4,
+        "trail_id": 3,
+        "position": 3,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 4,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 3,
+        "trail_id": 4,
+        "position": 2,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 3,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 3,
+        "trail_id": 3,
+        "position": 3,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 3,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 2,
+        "trail_id": 4,
+        "position": 2,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 2,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 2,
+        "trail_id": 3,
         "position": 3,
         "time_start": 1420,
         "time_finished": 1500
@@ -427,49 +615,86 @@
         "position": 1,
         "time_start": 1200,
         "time_finished": 1300
+      },
+      {
+        "user_id": 1,
+        "trail_id": 4,
+        "position": 2,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 1,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 1,
+        "trail_id": 3,
+        "position": 3,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 1,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
       }
     ]
   },
-
   "test": {
     "User":[
           {
-           "email":"test1@email.com",
+           "email":"Eric@email.com",
            "score":10,
            "total_completed":1,
            "current_trail":1,
-           "password":"password1",
-           "username": "testuser1",
-           "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg",
-           "social_login": "I can be very social"
+           "password":"password",
+           "username": "Eperiou",
+           "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490230012/eric_ldbbsw.jpg",
+           "social_login": null
          },
          {
-          "email":"test2@email.com",
+          "email":"Alice@email.com",
           "score":20,
           "total_completed":2,
           "current_trail":2,
-          "password":"password2",
-          "username": "testuser2",
-          "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg",
-          "social_login": "I can be very social"
+          "password":"password",
+          "username": "Aplai168",
+          "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227847/alice_rruimm.jpg",
+          "social_login": null
         },
         {
-         "email":"test3@email.com",
+         "email":"Devin@email.com",
          "score":30,
          "total_completed":3,
          "current_trail":3,
-         "password":"password3",
-         "username": "testuser3",
-         "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg",
-         "social_login": "I can be very social"
-       }
+         "password":"password",
+         "username": "DeFields",
+         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490230048/devin_dk0ri6.jpg",
+         "social_login": null
+       },
+       {
+        "email":"Olivia@email.com",
+        "score":30,
+        "total_completed":3,
+        "current_trail":3,
+        "password":"password",
+        "username": "Liv-Rush",
+        "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
+        "social_login": null
+      }
      ],
      "Trail": [
        {
          "user_id": 1,
-         "name": "St.Pats march to Rouses",
+         "name": "March to Rouses",
          "description": "This is the ultimate test of endurance, make your way from St.Patricks church all the way to Rouses",
-         "rating": 4,
+         "rating": 3,
          "type": "tour",
          "transport": "walk",
          "length": "1 miles",
@@ -480,22 +705,9 @@
        },
        {
          "user_id": 1,
-         "name": "Saunter on down to oneshell square",
-         "description": "Grab some coffee head around the bend before returning to work ",
-         "rating": 5,
-         "type": "break",
-         "transport": "walk",
-         "length": "2 miles",
-         "difficulty": 5,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 30 mins",
-         "requires_money": true
-       },
-       {
-         "user_id": 1,
          "name": "Eric's places",
          "description": "The full experience",
-         "rating": 5,
+         "rating": 3,
          "type": "adventure",
          "transport": "bike",
          "length": "10 miles",
@@ -508,10 +720,23 @@
          "user_id": 2,
          "name": "Breadcrumb Presentation",
          "description": "Just a little taste of the crumb",
-         "rating": 5,
+         "rating": 3,
          "type": "tour",
          "transport": "walk",
          "length": "a couple blocks",
+         "difficulty": 4,
+         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+         "time": "est 30 mins",
+         "requires_money": true
+       },
+       {
+         "user_id": 1,
+         "name": "Famous people",
+         "description": "This tour will take you to some of the famous statues in the CBD",
+         "rating": 3,
+         "type": "tour",
+         "transport": "walk",
+         "length": "2 miles",
          "difficulty": 5,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 30 mins",
@@ -524,8 +749,8 @@
          "name": "St. Patty's church",
          "description": "The church right next to operation spark",
          "order_number": 1,
-         "latitude": 29.946581,
-         "longitude": -90.06975,
+         "latitude": 29.946597,
+         "longitude": -90.069851,
          "radius": 100,
          "notification_id": 2,
          "title": "You found  St.Patricks church",
@@ -535,7 +760,7 @@
          "data": "",
          "text": "This is St patricks church, congrats you made it",
          "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "I hope you found it cause its cool ",
          "challenge": {
@@ -551,8 +776,8 @@
          "name": "Pulp n grind",
          "description": "The soulful coffeeshop",
          "order_number": 2,
-         "latitude": 29.947102,
-         "longitude": -90.0719217,
+         "latitude": 29.947143,
+         "longitude": -90.069855,
          "radius": 100,
          "notification_id": 2,
          "title": "Where you get the go fast juice",
@@ -562,7 +787,7 @@
          "data": "",
          "text": "yummy coffee",
          "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "Find the place where you can get Oj and coffee",
          "challenge": {
@@ -578,8 +803,8 @@
          "name": "Operation Spark",
          "description": "The Beginning",
          "order_number": 2,
-         "latitude": 29.947102,
-         "longitude": -90.0719217,
+         "latitude": 29.945972,
+         "longitude": -90.070166,
          "radius": 100,
          "notification_id": 2,
          "title": "This is the place from whence you came",
@@ -589,7 +814,7 @@
          "data": "",
          "text": "A Triumphant return to Operation Spark",
          "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "Return to the place you did depart, you should know its well, cause it was the start.",
          "challenge": {
@@ -605,8 +830,8 @@
          "name": "St. Patty's church",
          "description": "The church right next to operation spark",
          "order_number": 1,
-         "latitude": 29.946581,
-         "longitude": -90.06975,
+         "latitude": 29.946597,
+         "longitude": -90.069851,
          "radius": 100,
          "notification_id": 2,
          "title": "You found  St.Patricks church",
@@ -616,7 +841,7 @@
          "data": "",
          "text": "This is St patricks church, congrats you made it",
          "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "I hope you found it cause its cool ",
          "challenge": {
@@ -632,8 +857,8 @@
          "name": "Between the bread",
          "description": "the awesome sammy shop",
          "order_number": 2,
-         "latitude": 29.9479894,
-         "longitude": -90.0711672,
+         "latitude": 29.947914,
+         "longitude": -90.071242,
          "radius": 100,
          "notification_id": 2,
          "title": "you found between the bread",
@@ -643,7 +868,7 @@
          "data": "",
          "text": "This is the bread zone where you get awesome sammies",
          "image": "https://previews.123rf.com/images/bhofack2/bhofack21106/bhofack2110600425/9864525-A-large-turkey-sandwhich-with-tomatoes-cheese-and-lettuce-Stock-Photo.jpg",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "This is going to be a tasty one",
          "challenge": {
@@ -652,15 +877,15 @@
               "detection":"label"
 
          },
-         "media_text": "Congratulations, here is yourREWARD TEXT"
+         "media_text": "Congratulations on makeing it here you've definitely earned a delicious Triple Club sandwich for your troubles"
        },
        {
          "trail_id": 1,
          "name": "Rouses where you get the food",
          "description": "This is a great place to make some groceries",
          "order_number": 3,
-         "latitude": 29.9477665,
-         "longitude": -90.0739643,
+         "latitude": 29.947672,
+         "longitude": -90.073997,
          "radius": 100,
          "notification_id": 2,
          "title": "Rouses title",
@@ -670,7 +895,7 @@
          "data": "",
          "text": "This is where you'll make dem groceries",
          "image": "http://static.panoramio.com/photos/large/77018914.jpg",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "This is where you make dem groceries",
          "challenge": {
@@ -686,8 +911,8 @@
         "name": "Pulp n grind",
         "description": "The soulful coffeeshop",
         "order_number": 1,
-        "latitude": 29.947102,
-        "longitude": -90.0719217,
+        "latitude": 29.947143,
+        "longitude": -90.069855,
         "radius": 100,
         "notification_id": 2,
         "title": "Where you get the go fast juice",
@@ -697,7 +922,7 @@
         "data": "",
         "text": "yummy coffee",
         "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "Find the place where you can get Oj and coffee",
         "challenge": {
@@ -713,8 +938,8 @@
         "name": "The second Corner",
         "description": "A short stroll accross the park to find the next mark",
         "order_number": 2,
-        "latitude": 29.948643,
-        "longitude": -90.069560,
+        "latitude": 29.948650,
+        "longitude": -90.069566,
         "radius": 100,
         "notification_id": 2,
         "title": "This is the next place on the list",
@@ -724,7 +949,7 @@
         "data": "",
         "text": "yummy coffeet",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BenFranklinDuplessis.jpg/220px-BenFranklinDuplessis.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "a short Jaunt past Franklins mount, its just one more if you can count",
         "challenge": {
@@ -751,7 +976,7 @@
         "data": "",
         "text": "yummy coffeet",
         "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "a short walk around the corner",
         "challenge": {
@@ -767,8 +992,8 @@
         "name": "The Bulldog",
         "description": "The bulldog, one of the best places to stop and grab a pint. Feel free to stop in and grab a quick one",
         "order_number": 1,
-        "latitude": 29.983613,
-        "longitude": -90.110149,
+        "latitude": 29.983598,
+        "longitude": -90.110222,
         "radius": 100,
         "notification_id": 2,
         "title": "the bulldog",
@@ -778,7 +1003,7 @@
         "data": "",
         "text": "You've made it to the bulldog",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clyde_The_Bulldog.jpg/220px-Clyde_The_Bulldog.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "This is a quick spot to grab a beverage in mid-city so feel free to stop in for a pint",
         "challenge": {
@@ -794,8 +1019,8 @@
         "name": "Pat'O's ",
         "description": "Come join the dueling pianos and try the World famous hurricane",
         "order_number": 2,
-        "latitude": 29.958226,
-        "longitude":  -90.065207,
+        "latitude": 29.958182,
+        "longitude": -90.065216,
         "radius": 100,
         "notification_id": 2,
         "title": "Pat O's",
@@ -805,7 +1030,7 @@
         "data": "",
         "text": "Pat O's piano bar",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clyde_The_Bulldog.jpg/220px-Clyde_The_Bulldog.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "This is the home of the world famous dueling piano lounge",
         "challenge": {
@@ -821,8 +1046,8 @@
         "name": "Port O' Call",
         "description": "This is a popular pirate bar in the bywater area. It's famous for its fun atmosphere, cool drinks, and hearty steaks. Stop in and stay awhile.",
         "order_number": 3,
-        "latitude": 29.964380,
-        "longitude": -90.061716,
+        "latitude": 29.964409,
+        "longitude": -90.061745,
         "radius": 100,
         "notification_id": 2,
         "title": "Port O' Call",
@@ -832,7 +1057,7 @@
         "data": "",
         "text": "Port O'Call",
         "image": "https://s-media-cache-ak0.pinimg.com/originals/d9/fc/11/d9fc1116abab0f13f35758daab6d18b0.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "This is a hideaway for hungry pirates and late night partiers, a pirate bar on esplanade",
         "challenge": {
@@ -842,18 +1067,224 @@
 
         },
         "media_text": "Your victory for this is a tasty dinner and cool beverage"
+      },
+      {
+        "trail_id": 5,
+        "name": "Ignatius Reilly",
+        "description": "This person made famous in The Confederacy of Dunces has a statue guarding the gates to the quarter.",
+        "order_number": 1,
+        "latitude": 29.954365,
+        "longitude": -90.070268,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "Ignatius Reilly has been found ",
+        "image": "http://deepsouthmag.com/wp-content/uploads/2012/12/ignatius-statue.jpg",
+        "video": "https://www.youtube.com/embed/eGYHxBfW3gs",
+        "ar": "string",
+        "clue": "New Orleans Don Quixote made famous by John Toole",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "glass", "hat", "person", "statue"],
+             "detection":"label"
+
+        },
+        "media_text": "Ignatius Jacques Reilly is something of a modern Don Quixote—eccentric, idealistic, and creative, sometimes to the point of delusion.[2] In his foreword to the book, Walker Percy describes Ignatius as a 'slob extraordinary, a mad Oliver Hardy, a fat Don Quixote, a perverse Thomas Aquinas rolled into one'. He disdains modernity, particularly pop culture. The disdain becomes his obsession: he goes to movies in order to mock their perversity and express his outrage with the contemporary world's lack of 'theology and geometry'. He prefers the scholastic philosophy of the Middle Ages, and the Early Medieval philosopher Boethius in particular.[4] However, he also enjoys many modern comforts and conveniences and is given to claiming that the rednecks of rural Louisiana hate all modern technology which they associate with progress. The workings of his pyloric valve play an important role in his life, reacting strongly to incidents in a fashion that he likens to Cassandra in terms of prophetic significance."
+      },
+      {
+        "trail_id": 5,
+        "name": "The Fat Man",
+        "description": "This artist is a New Orleans rhythmn and Blues legend, with famous songs such as 'I'm Walkin', and 'Whole Lotta Loving'",
+        "order_number": 2,
+        "latitude": 29.955785,
+        "longitude": -90.068341,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "You Found musicians square",
+        "image": "http://deepsouthmag.com/wp-content/uploads/2012/12/ignatius-statue.jpg",
+        "video": "https://www.youtube.com/embed/xbfMlk1PwGU",
+        "ar": "string",
+        "clue": "This famous New Orleans musicians can be found nestled with several friends.",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "glass", "hat", "person", "statue"],
+             "detection":"label"
+
+        },
+        "media_text": "Musical Legends Park is centrally located at 311 Bourbon Street. The heart of the Park is a tribute to New Orleans Musical Legends and includes a series of commemorative displays, plaques and artwork. The Park provides a warm, intimate escape for local and visiting music lovers. Musicians are invited to play for outdoor audiences. Performances are free to the public."
+      },
+      {
+        "trail_id": 5,
+        "name": "And He's Feelin Fine",
+        "description": "Find the Big Chief of Professor Longhair fame",
+        "order_number": 3,
+        "latitude": 29.961947,
+        "longitude": -90.068571,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "You should hear the music by now",
+        "image": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/601586_10102075751823735_1413692644_n.jpg?oh=fb1d5b942a082f7a2763f0c9b6105fe2&oe=596C9815",
+        "video": "https://www.youtube.com/embed/0UWBO4r11AY",
+        "ar": "string",
+        "clue": "This Mardi Gras Indian is found celebrating still today in the park of a famous musician found with Fats Domino",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "glass", "hat", "person", "statue"],
+             "detection":"label"
+
+        },
+        "media_text": "From age four in 1937 to his death in 1998, Donald Harrison Sr. embraced the tradition of New Orleans' Mardi Gras Indians. As Big Chief of the Guardian of the Flames, he led with both wisdom and passion. This biography of this remarkable man is based on more than seventy interviews with his family and others he influenced."
+      },
+      {
+        "trail_id": 5,
+        "name": "The Maid",
+        "description": "She was known as the heroine of France",
+        "order_number": 3,
+        "latitude": 29.961947,
+        "longitude": -90.068571,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "You should hear the music by now",
+        "image": "http://cdn.thedailybeast.com/content/dailybeast/articles/2015/06/08/the-joan-of-arc-nobody-knows/jcr:content/image.crop.800.500.jpg/47793520.cached.jpg",
+        "video": "https://www.youtube.com/embed/0q3uAu1EuRc",
+        "ar": "string",
+        "clue": "Find the Maid of Orleans",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "glass", "hat", "person", "statue"],
+             "detection":"label"
+
+        },
+        "media_text": "The uncrowned King Charles VII sent Joan to the siege of Orléans as part of a relief mission. She gained prominence after the siege was lifted only nine days later. Several additional swift victories led to Charles VII's coronation at Reims. This long-awaited event boosted French morale and paved the way for the final French victory."
       }
      ],
      "Savedtrail": [
       {
-        "user_id": 1,
+        "user_id": 4,
+        "trail_id": 4,
+        "position": 2,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 4,
         "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 4,
+        "trail_id": 3,
+        "position": 3,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 4,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 3,
+        "trail_id": 4,
+        "position": 2,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 3,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 3,
+        "trail_id": 3,
+        "position": 3,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 3,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 2,
+        "trail_id": 4,
+        "position": 2,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 2,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 2,
+        "trail_id": 3,
         "position": 3,
         "time_start": 1420,
         "time_finished": 1500
       },
       {
         "user_id": 2,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 1,
+        "trail_id": 4,
+        "position": 2,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 1,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 1,
+        "trail_id": 3,
+        "position": 3,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 1,
         "trail_id": 2,
         "position": 1,
         "time_start": 1200,
@@ -864,42 +1295,52 @@
   "production": {
     "User":[
           {
-           "email":"test1@email.com",
+           "email":"Eric@email.com",
            "score":10,
            "total_completed":1,
            "current_trail":1,
-           "password":"password1",
-           "username": "testuser1",
-           "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg",
-           "social_login": "I can be very social"
+           "password":"password",
+           "username": "Eperiou",
+           "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490230012/eric_ldbbsw.jpg",
+           "social_login": null
          },
          {
-          "email":"test2@email.com",
+          "email":"Alice@email.com",
           "score":20,
           "total_completed":2,
           "current_trail":2,
-          "password":"password2",
-          "username": "testuser2",
-          "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg",
-          "social_login": "I can be very social"
+          "password":"password",
+          "username": "Aplai168",
+          "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227847/alice_rruimm.jpg",
+          "social_login": null
         },
         {
-         "email":"test3@email.com",
+         "email":"Devin@email.com",
          "score":30,
          "total_completed":3,
          "current_trail":3,
-         "password":"password3",
-         "username": "testuser3",
-         "profile_picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/JohnStamosHWoFFeb2012.jpg/220px-JohnStamosHWoFFeb2012.jpg",
-         "social_login": "I can be very social"
-       }
+         "password":"password",
+         "username": "DeFields",
+         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490230048/devin_dk0ri6.jpg",
+         "social_login": null
+       },
+       {
+        "email":"Olivia@email.com",
+        "score":30,
+        "total_completed":3,
+        "current_trail":3,
+        "password":"password",
+        "username": "Liv-Rush",
+        "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
+        "social_login": null
+      }
      ],
      "Trail": [
        {
          "user_id": 1,
-         "name": "St.Pats march to Rouses",
+         "name": "March to Rouses",
          "description": "This is the ultimate test of endurance, make your way from St.Patricks church all the way to Rouses",
-         "rating": 4,
+         "rating": 3,
          "type": "tour",
          "transport": "walk",
          "length": "1 miles",
@@ -910,22 +1351,9 @@
        },
        {
          "user_id": 1,
-         "name": "Saunter on down to oneshell square",
-         "description": "Grab some coffee head around the bend before returning to work ",
-         "rating": 5,
-         "type": "break",
-         "transport": "walk",
-         "length": "2 miles",
-         "difficulty": 5,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 30 mins",
-         "requires_money": true
-       },
-       {
-         "user_id": 1,
          "name": "Eric's places",
          "description": "The full experience",
-         "rating": 5,
+         "rating": 3,
          "type": "adventure",
          "transport": "bike",
          "length": "10 miles",
@@ -938,10 +1366,23 @@
          "user_id": 2,
          "name": "Breadcrumb Presentation",
          "description": "Just a little taste of the crumb",
-         "rating": 5,
+         "rating": 3,
          "type": "tour",
          "transport": "walk",
          "length": "a couple blocks",
+         "difficulty": 4,
+         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+         "time": "est 30 mins",
+         "requires_money": true
+       },
+       {
+         "user_id": 1,
+         "name": "Famous people",
+         "description": "This tour will take you to some of the famous statues in the CBD",
+         "rating": 3,
+         "type": "tour",
+         "transport": "walk",
+         "length": "2 miles",
          "difficulty": 5,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 30 mins",
@@ -954,8 +1395,8 @@
          "name": "St. Patty's church",
          "description": "The church right next to operation spark",
          "order_number": 1,
-         "latitude": 29.946581,
-         "longitude": -90.06975,
+         "latitude": 29.946597,
+         "longitude": -90.069851,
          "radius": 100,
          "notification_id": 2,
          "title": "You found  St.Patricks church",
@@ -965,7 +1406,7 @@
          "data": "",
          "text": "This is St patricks church, congrats you made it",
          "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "I hope you found it cause its cool ",
          "challenge": {
@@ -981,8 +1422,8 @@
          "name": "Pulp n grind",
          "description": "The soulful coffeeshop",
          "order_number": 2,
-         "latitude": 29.947102,
-         "longitude": -90.0719217,
+         "latitude": 29.947143,
+         "longitude": -90.069855,
          "radius": 100,
          "notification_id": 2,
          "title": "Where you get the go fast juice",
@@ -992,7 +1433,7 @@
          "data": "",
          "text": "yummy coffee",
          "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "Find the place where you can get Oj and coffee",
          "challenge": {
@@ -1008,8 +1449,8 @@
          "name": "Operation Spark",
          "description": "The Beginning",
          "order_number": 2,
-         "latitude": 29.947102,
-         "longitude": -90.0719217,
+         "latitude": 29.945972,
+         "longitude": -90.070166,
          "radius": 100,
          "notification_id": 2,
          "title": "This is the place from whence you came",
@@ -1019,7 +1460,7 @@
          "data": "",
          "text": "A Triumphant return to Operation Spark",
          "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "Return to the place you did depart, you should know its well, cause it was the start.",
          "challenge": {
@@ -1035,8 +1476,8 @@
          "name": "St. Patty's church",
          "description": "The church right next to operation spark",
          "order_number": 1,
-         "latitude": 29.946581,
-         "longitude": -90.06975,
+         "latitude": 29.946597,
+         "longitude": -90.069851,
          "radius": 100,
          "notification_id": 2,
          "title": "You found  St.Patricks church",
@@ -1046,7 +1487,7 @@
          "data": "",
          "text": "This is St patricks church, congrats you made it",
          "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "I hope you found it cause its cool ",
          "challenge": {
@@ -1062,8 +1503,8 @@
          "name": "Between the bread",
          "description": "the awesome sammy shop",
          "order_number": 2,
-         "latitude": 29.9479894,
-         "longitude": -90.0711672,
+         "latitude": 29.947914,
+         "longitude": -90.071242,
          "radius": 100,
          "notification_id": 2,
          "title": "you found between the bread",
@@ -1073,7 +1514,7 @@
          "data": "",
          "text": "This is the bread zone where you get awesome sammies",
          "image": "https://previews.123rf.com/images/bhofack2/bhofack21106/bhofack2110600425/9864525-A-large-turkey-sandwhich-with-tomatoes-cheese-and-lettuce-Stock-Photo.jpg",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "This is going to be a tasty one",
          "challenge": {
@@ -1082,15 +1523,15 @@
               "detection":"label"
 
          },
-         "media_text": "Congratulations, here is yourREWARD TEXT"
+         "media_text": "Congratulations on makeing it here you've definitely earned a delicious Triple Club sandwich for your troubles"
        },
        {
          "trail_id": 1,
          "name": "Rouses where you get the food",
          "description": "This is a great place to make some groceries",
          "order_number": 3,
-         "latitude": 29.9477665,
-         "longitude": -90.0739643,
+         "latitude": 29.947672,
+         "longitude": -90.073997,
          "radius": 100,
          "notification_id": 2,
          "title": "Rouses title",
@@ -1100,7 +1541,7 @@
          "data": "",
          "text": "This is where you'll make dem groceries",
          "image": "http://static.panoramio.com/photos/large/77018914.jpg",
-         "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
          "ar": "string",
          "clue": "This is where you make dem groceries",
          "challenge": {
@@ -1116,8 +1557,8 @@
         "name": "Pulp n grind",
         "description": "The soulful coffeeshop",
         "order_number": 1,
-        "latitude": 29.947102,
-        "longitude": -90.0719217,
+        "latitude": 29.947143,
+        "longitude": -90.069855,
         "radius": 100,
         "notification_id": 2,
         "title": "Where you get the go fast juice",
@@ -1127,7 +1568,7 @@
         "data": "",
         "text": "yummy coffee",
         "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "Find the place where you can get Oj and coffee",
         "challenge": {
@@ -1143,8 +1584,8 @@
         "name": "The second Corner",
         "description": "A short stroll accross the park to find the next mark",
         "order_number": 2,
-        "latitude": 29.948643,
-        "longitude": -90.069560,
+        "latitude": 29.948650,
+        "longitude": -90.069566,
         "radius": 100,
         "notification_id": 2,
         "title": "This is the next place on the list",
@@ -1154,7 +1595,7 @@
         "data": "",
         "text": "yummy coffeet",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BenFranklinDuplessis.jpg/220px-BenFranklinDuplessis.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "a short Jaunt past Franklins mount, its just one more if you can count",
         "challenge": {
@@ -1181,7 +1622,7 @@
         "data": "",
         "text": "yummy coffeet",
         "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "a short walk around the corner",
         "challenge": {
@@ -1197,8 +1638,8 @@
         "name": "The Bulldog",
         "description": "The bulldog, one of the best places to stop and grab a pint. Feel free to stop in and grab a quick one",
         "order_number": 1,
-        "latitude": 29.983613,
-        "longitude": -90.110149,
+        "latitude": 29.983598,
+        "longitude": -90.110222,
         "radius": 100,
         "notification_id": 2,
         "title": "the bulldog",
@@ -1208,7 +1649,7 @@
         "data": "",
         "text": "You've made it to the bulldog",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clyde_The_Bulldog.jpg/220px-Clyde_The_Bulldog.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "This is a quick spot to grab a beverage in mid-city so feel free to stop in for a pint",
         "challenge": {
@@ -1224,8 +1665,8 @@
         "name": "Pat'O's ",
         "description": "Come join the dueling pianos and try the World famous hurricane",
         "order_number": 2,
-        "latitude": 29.958226,
-        "longitude":  -90.065207,
+        "latitude": 29.958182,
+        "longitude": -90.065216,
         "radius": 100,
         "notification_id": 2,
         "title": "Pat O's",
@@ -1235,7 +1676,7 @@
         "data": "",
         "text": "Pat O's piano bar",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clyde_The_Bulldog.jpg/220px-Clyde_The_Bulldog.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "This is the home of the world famous dueling piano lounge",
         "challenge": {
@@ -1251,8 +1692,8 @@
         "name": "Port O' Call",
         "description": "This is a popular pirate bar in the bywater area. It's famous for its fun atmosphere, cool drinks, and hearty steaks. Stop in and stay awhile.",
         "order_number": 3,
-        "latitude": 29.964380,
-        "longitude": -90.061716,
+        "latitude": 29.964409,
+        "longitude": -90.061745,
         "radius": 100,
         "notification_id": 2,
         "title": "Port O' Call",
@@ -1262,7 +1703,7 @@
         "data": "",
         "text": "Port O'Call",
         "image": "https://s-media-cache-ak0.pinimg.com/originals/d9/fc/11/d9fc1116abab0f13f35758daab6d18b0.jpg",
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
         "ar": "string",
         "clue": "This is a hideaway for hungry pirates and late night partiers, a pirate bar on esplanade",
         "challenge": {
@@ -1272,18 +1713,224 @@
 
         },
         "media_text": "Your victory for this is a tasty dinner and cool beverage"
+      },
+      {
+        "trail_id": 5,
+        "name": "Ignatius Reilly",
+        "description": "This person made famous in The Confederacy of Dunces has a statue guarding the gates to the quarter.",
+        "order_number": 1,
+        "latitude": 29.954365,
+        "longitude": -90.070268,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "Ignatius Reilly has been found ",
+        "image": "http://deepsouthmag.com/wp-content/uploads/2012/12/ignatius-statue.jpg",
+        "video": "https://www.youtube.com/embed/eGYHxBfW3gs",
+        "ar": "string",
+        "clue": "New Orleans Don Quixote made famous by John Toole",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "glass", "hat", "person", "statue"],
+             "detection":"label"
+
+        },
+        "media_text": "Ignatius Jacques Reilly is something of a modern Don Quixote—eccentric, idealistic, and creative, sometimes to the point of delusion.[2] In his foreword to the book, Walker Percy describes Ignatius as a 'slob extraordinary, a mad Oliver Hardy, a fat Don Quixote, a perverse Thomas Aquinas rolled into one'. He disdains modernity, particularly pop culture. The disdain becomes his obsession: he goes to movies in order to mock their perversity and express his outrage with the contemporary world's lack of 'theology and geometry'. He prefers the scholastic philosophy of the Middle Ages, and the Early Medieval philosopher Boethius in particular.[4] However, he also enjoys many modern comforts and conveniences and is given to claiming that the rednecks of rural Louisiana hate all modern technology which they associate with progress. The workings of his pyloric valve play an important role in his life, reacting strongly to incidents in a fashion that he likens to Cassandra in terms of prophetic significance."
+      },
+      {
+        "trail_id": 5,
+        "name": "The Fat Man",
+        "description": "This artist is a New Orleans rhythmn and Blues legend, with famous songs such as 'I'm Walkin', and 'Whole Lotta Loving'",
+        "order_number": 2,
+        "latitude": 29.955785,
+        "longitude": -90.068341,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "You Found musicians square",
+        "image": "http://deepsouthmag.com/wp-content/uploads/2012/12/ignatius-statue.jpg",
+        "video": "https://www.youtube.com/embed/xbfMlk1PwGU",
+        "ar": "string",
+        "clue": "This famous New Orleans musicians can be found nestled with several friends.",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "glass", "hat", "person", "statue"],
+             "detection":"label"
+
+        },
+        "media_text": "Musical Legends Park is centrally located at 311 Bourbon Street. The heart of the Park is a tribute to New Orleans Musical Legends and includes a series of commemorative displays, plaques and artwork. The Park provides a warm, intimate escape for local and visiting music lovers. Musicians are invited to play for outdoor audiences. Performances are free to the public."
+      },
+      {
+        "trail_id": 5,
+        "name": "And He's Feelin Fine",
+        "description": "Find the Big Chief of Professor Longhair fame",
+        "order_number": 3,
+        "latitude": 29.961947,
+        "longitude": -90.068571,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "You should hear the music by now",
+        "image": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/601586_10102075751823735_1413692644_n.jpg?oh=fb1d5b942a082f7a2763f0c9b6105fe2&oe=596C9815",
+        "video": "https://www.youtube.com/embed/0UWBO4r11AY",
+        "ar": "string",
+        "clue": "This Mardi Gras Indian is found celebrating still today in the park of a famous musician found with Fats Domino",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "glass", "hat", "person", "statue"],
+             "detection":"label"
+
+        },
+        "media_text": "From age four in 1937 to his death in 1998, Donald Harrison Sr. embraced the tradition of New Orleans' Mardi Gras Indians. As Big Chief of the Guardian of the Flames, he led with both wisdom and passion. This biography of this remarkable man is based on more than seventy interviews with his family and others he influenced."
+      },
+      {
+        "trail_id": 5,
+        "name": "The Maid",
+        "description": "She was known as the heroine of France",
+        "order_number": 3,
+        "latitude": 29.961947,
+        "longitude": -90.068571,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "You should hear the music by now",
+        "image": "http://cdn.thedailybeast.com/content/dailybeast/articles/2015/06/08/the-joan-of-arc-nobody-knows/jcr:content/image.crop.800.500.jpg/47793520.cached.jpg",
+        "video": "https://www.youtube.com/embed/0q3uAu1EuRc",
+        "ar": "string",
+        "clue": "Find the Maid of Orleans",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "glass", "hat", "person", "statue"],
+             "detection":"label"
+
+        },
+        "media_text": "The uncrowned King Charles VII sent Joan to the siege of Orléans as part of a relief mission. She gained prominence after the siege was lifted only nine days later. Several additional swift victories led to Charles VII's coronation at Reims. This long-awaited event boosted French morale and paved the way for the final French victory."
       }
-    ],
+     ],
      "Savedtrail": [
       {
-        "user_id": 1,
+        "user_id": 4,
+        "trail_id": 4,
+        "position": 2,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 4,
         "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 4,
+        "trail_id": 3,
+        "position": 3,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 4,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 3,
+        "trail_id": 4,
+        "position": 2,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 3,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 3,
+        "trail_id": 3,
+        "position": 3,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 3,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 2,
+        "trail_id": 4,
+        "position": 2,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 2,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 2,
+        "trail_id": 3,
         "position": 3,
         "time_start": 1420,
         "time_finished": 1500
       },
       {
         "user_id": 2,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 1,
+        "trail_id": 4,
+        "position": 2,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 1,
+        "trail_id": 2,
+        "position": 1,
+        "time_start": 1200,
+        "time_finished": 1300
+      },
+      {
+        "user_id": 1,
+        "trail_id": 3,
+        "position": 3,
+        "time_start": 1420,
+        "time_finished": 1500
+      },
+      {
+        "user_id": 1,
         "trail_id": 2,
         "position": 1,
         "time_start": 1200,
