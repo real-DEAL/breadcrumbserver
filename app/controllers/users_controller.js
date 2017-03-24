@@ -46,7 +46,6 @@ class UsersController extends Nodal.Controller {
     User.create(this.params.body, (err, model) => {
       // TODO update so that the user model doesn't return ;
       this.respond(err || model, [
-
         'id',
         'email',
         'username',
