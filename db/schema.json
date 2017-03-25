@@ -1,8 +1,23 @@
 {
 
-  "migration_id": 2017031601450788,
+  "migration_id": 2017032518511675,
 
   "models": {
+
+    "ArMessage": {
+
+      "table": "ar_messages",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "username", "type": "string", "properties": {}},
+        {"name": "bearing", "type": "int", "properties": {}},
+        {"name": "crumb_id", "type": "int", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
 
     "Crumb": {
 
