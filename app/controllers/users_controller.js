@@ -20,7 +20,6 @@ class UsersController extends Nodal.Controller {
           'total_completed',
           'current_trail',
           'profile_picture',
-          'social_login',
           { trail: ['id'] },
           { savedtrail: ['id'] },
         ]);
@@ -36,7 +35,6 @@ class UsersController extends Nodal.Controller {
         'total_completed',
         'current_trail',
         'profile_picture',
-        'social_login',
         { trail: ['id'] },
         { savedtrail: ['id'] },
       ]);
@@ -53,7 +51,6 @@ class UsersController extends Nodal.Controller {
         'total_completed',
         'current_trail',
         'profile_picture',
-        'social_login',
       ]);
     });
   }
