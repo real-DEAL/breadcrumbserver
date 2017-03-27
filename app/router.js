@@ -19,7 +19,7 @@ router.middleware.use(CORSMiddleware);
 /* Renderware */
 /* executed *after* Controller-specific renderware */
 
-const GzipRenderware = Nodal.require('renderware/gzip_renderware.js')
+const GzipRenderware = Nodal.require('renderware/gzip_renderware.js');
 
 router.renderware.use(GzipRenderware);
 
@@ -34,6 +34,7 @@ const TrailsController = Nodal.require('app/controllers/trails_controller.js');
 const CrumbsController = Nodal.require('app/controllers/crumbs_controller.js');
 const SavedtrailsController = Nodal.require('app/controllers/savedtrails_controller.js');
 const ArMessagesController = Nodal.require('app/controllers/ar_messages_controller.js');
+const V1AccessTokensController = Nodal.require('app/controllers/v1/access_tokens_controller.js');
 
 /* generator: end imports */
 
@@ -46,6 +47,7 @@ router.route('/trails/{id}').use(TrailsController);
 router.route('/crumbs/{id}').use(CrumbsController);
 router.route('/savedtrails/{id}').use(SavedtrailsController);
 router.route('/ar_messages/{id}').use(ArMessagesController);
+router.route('/v1/access_tokens/{id}').use(V1AccessTokensController);
 
 /* generator: end routes */
 

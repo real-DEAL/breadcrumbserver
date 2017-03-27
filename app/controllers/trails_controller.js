@@ -7,12 +7,17 @@
 
 const Nodal = require('nodal');
 
+const AuthController = Nodal.require('app/controllers/auth_controller.js');
+
 const Trail = Nodal.require('app/models/trail.js');
 const rp = require('request-promise');
 
-class TrailsController extends Nodal.Controller {
+class TrailsController extends AuthController {
 
   index() {
+    this.authorize((accessToken, user) => {
+      this.params.body.user_id = user.get('id');
+    });
     Trail.query()
       .where(this.params.query)
       .join('crumb')

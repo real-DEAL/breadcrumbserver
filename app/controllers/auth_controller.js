@@ -2,13 +2,19 @@
 
 const Nodal = require('nodal');
 
+const AccessToken = Nodal.require('app/models/access_token.js');
+
 class AuthController extends Nodal.Controller {
 
   authorize(callback) {
     this.setHeader('Cache-Control', 'no-store');
     this.setHeader('Pragma', 'no-cache');
-
-    callback(null);
+    AccessToken.verify(this.params, (err, accessToken, user) => {
+      if (err) {
+        return this.respond(err);
+      }
+      callback(accessToken, user);
+    });
   }
 
 }
