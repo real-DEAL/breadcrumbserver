@@ -1,6 +1,62 @@
 {
 
   "development": {
+    "ArMessage": [
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 1,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 90,
+        "crumb_id": 2,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 3,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 50,
+        "crumb_id": 4,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 140,
+        "crumb_id": 5,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 6,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 7,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 8,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 9,
+        "message":"Hey Listen!"
+      }
+    ],
     "User":[
           {
            "email":"Eric@email.com",
@@ -566,6 +622,118 @@
     ]
   },
   "test": {
+    "ArMessage": [
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 1,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 90,
+        "crumb_id": 2,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 3,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 50,
+        "crumb_id": 4,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 140,
+        "crumb_id": 5,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 6,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 7,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 8,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 9,
+        "message":"Hey Listen!"
+      }
+    ],
+    "ArMessage": [
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 1,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 90,
+        "crumb_id": 2,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 3,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 50,
+        "crumb_id": 4,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 140,
+        "crumb_id": 5,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 6,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 7,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 8,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 9,
+        "message":"Hey Listen!"
+      }
+    ],
     "User":[
           {
            "email":"Eric@email.com",
@@ -1131,6 +1299,62 @@
     ]
   },
   "production": {
+    "ArMessage": [
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 1,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 90,
+        "crumb_id": 2,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 3,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 50,
+        "crumb_id": 4,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 140,
+        "crumb_id": 5,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 6,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 7,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 8,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 9,
+        "message":"Hey Listen!"
+      }
+    ],
     "User":[
           {
            "email":"Eric@email.com",
