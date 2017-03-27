@@ -64,6 +64,9 @@ class TrailsController extends AuthController {
       });
   }
   show() {
+    this.authorize((accessToken, user) => {
+      this.params.body.user_id = user.get('id');
+    });
     Trail.find(this.params.route.id, (err, model) => {
       this.respond(err || model, [
         'id',
@@ -104,6 +107,9 @@ class TrailsController extends AuthController {
     });
   }
   create() {
+    this.authorize((accessToken, user) => {
+      this.params.body.user_id = user.get('id');
+    });
    /**
     * @param: trails and all their crumbs
     * @param: Ouput: sends request to server to submit all the crumbs
@@ -127,11 +133,17 @@ class TrailsController extends AuthController {
     });
   }
   update() {
+    this.authorize((accessToken, user) => {
+      this.params.body.user_id = user.get('id');
+    });
     Trail.update(this.params.route.id, this.params.body, (err, model) => {
       this.respond(err || model);
     });
   }
   destroy() {
+    this.authorize((accessToken, user) => {
+      this.params.body.user_id = user.get('id');
+    });
     /**
      * @param: trails and all their crumbs
      * @param: Deletes the Trail and makes requessts to destroy all the crumbs of the same trail

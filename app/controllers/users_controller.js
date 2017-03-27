@@ -3,10 +3,14 @@
 const Nodal = require('nodal');
 
 const User = Nodal.require('app/models/user.js');
+const AuthController = Nodal.require('app/controllers/auth_controller.js');
 
-class UsersController extends Nodal.Controller {
+class UsersController extends AuthController {
 
   index() {
+    this.authorize((accessToken, user) => {
+      this.params.body.user_id = user.get('id');
+    });
     User.query()
       .where(this.params.query)
       .join('trail')
@@ -55,6 +59,9 @@ class UsersController extends Nodal.Controller {
     });
   }
   update() {
+    this.authorize((accessToken, user) => {
+      this.params.body.user_id = user.get('id');
+    });
     User.update(this.params.route.id, this.params.body, (err, model) => {
       this.respond(err || model, [
         'username',
@@ -69,6 +76,9 @@ class UsersController extends Nodal.Controller {
     });
   }
   destroy() {
+    this.authorize((accessToken, user) => {
+      this.params.body.user_id = user.get('id');
+    });
     User.destroy(this.params.route.id, (err, model) => {
       this.respond(err || model);
     });

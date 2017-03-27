@@ -13,10 +13,9 @@ class AuthController extends Nodal.Controller {
       if (err) {
         return this.respond(err);
       }
-      callback(accessToken, user);
+      return callback(accessToken, user);
     });
   }
-
 }
 
 module.exports = AuthController;
