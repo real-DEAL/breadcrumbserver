@@ -10,12 +10,6 @@ const AuthController = Nodal.require('app/controllers/auth_controller.js');
 const rp = require('request-promise');
 
 class UsersController extends AuthController {
-  /**
-  *@params Takes new user
-  *@params using new user, creates a session token and updates the uper
-  * adds token to user in database
-  *
-  **/
   index() {
     User.query()
       .where(this.params.query)
@@ -23,14 +17,6 @@ class UsersController extends AuthController {
       .join('savedtrail')
       .end((err, models) => {
         if (err) { this.respond(err); }
-        if (this.params.query.token) {
-          AccessToken.login(this.params, (error, accessToken) => {
-            this.params.body.access_token = accessToken._data.access_token;
-            User.update(accessToken._data.user_id, this.params.body, (user) => {
-              this.respond('incorrect username or password' || user);
-            });
-          });
-        }
         this.respond(models, [
           'id',
           'email',
@@ -54,20 +40,27 @@ class UsersController extends AuthController {
         'total_completed',
         'current_trail',
         'profile_picture',
+        'access_token',
+        'social_login',
       ]);
     });
   }
   create() {
-    // TODO cleanup callbackhell
+    /**
+    *@params Takes new user
+    *@params using new user, creates a session token and updates the uper
+    * adds token to user in database
+    *
+    **/
     User.create(this.params.body, (err) => {
       if (err) { this.respond(err); }
       AccessToken.login(this.params, (error, accessToken) => {
+        if (err) { this.respond(err); }
         this.params.body.access_token = accessToken._data.access_token;
         User.update(accessToken._data.user_id, this.params.body, (errs, user) => {
           this.respond(errs || user);
         });
       });
-      if (err) { this.respond(err); }
     });
   }
   update() {

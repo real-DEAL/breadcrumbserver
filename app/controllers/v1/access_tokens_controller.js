@@ -4,9 +4,12 @@ const Nodal = require('nodal');
 const AccessToken = Nodal.require('app/models/access_token.js');
 
 class V1AccessTokensController extends Nodal.Controller {
-
   create() {
-    console.log('auth params', this.params)
+    this.params.body = {
+      password: this.params.body.social_login,
+      grant_type: 'password',
+      username: this.params.body.username,
+    };
     AccessToken.login(this.params, (err, accessToken) => {
       this.respond(err || accessToken);
     });

@@ -59,14 +59,14 @@
     ],
     "User":[
           {
-           "email":"Eric@email.com",
+           "email":"Eperiou@yahoo.com",
            "score":10,
            "total_completed":1,
            "current_trail":1,
-           "password":"password",
+           "password":"auth0|58d4745c2da1ce3061e602e7",
            "username": "Eperiou",
            "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490230012/eric_ldbbsw.jpg",
-           "social_login": null
+           "social_login": "auth0|58d4745c2da1ce3061e602e7"
          },
          {
           "email":"Alice@email.com",
@@ -93,7 +93,7 @@
         "score":30,
         "total_completed":3,
         "current_trail":3,
-        "password":"password",
+        "password":"auth0|58d403842da1ce3061e5e0ded403842da1ce3061e5e0de",
         "username": "Liv",
         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
         "social_login": "auth0|58d403842da1ce3061e5e0de"
@@ -740,10 +740,10 @@
            "score":10,
            "total_completed":1,
            "current_trail":1,
-           "password":"password",
+           "password":"auth0|58d4745c2da1ce3061e602e7",
            "username": "Eperiou",
            "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490230012/eric_ldbbsw.jpg",
-           "social_login": null
+           "social_login": "auth0|58d4745c2da1ce3061e602e7"
          },
          {
           "email":"Alice@email.com",
@@ -770,7 +770,7 @@
         "score":30,
         "total_completed":3,
         "current_trail":3,
-        "password":"password",
+        "password":"auth0|58d403842da1ce3061e5e0de",
         "username": "Liv",
         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
         "social_login": "auth0|58d403842da1ce3061e5e0de"
@@ -1361,10 +1361,10 @@
            "score":10,
            "total_completed":1,
            "current_trail":1,
-           "password":"password",
+           "password":"auth0|58d4745c2da1ce3061e602e7",
            "username": "Eperiou",
            "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490230012/eric_ldbbsw.jpg",
-           "social_login": null
+           "social_login": "auth0|58d4745c2da1ce3061e602e7"
          },
          {
           "email":"Alice@email.com",
@@ -1391,7 +1391,7 @@
         "score":30,
         "total_completed":3,
         "current_trail":3,
-        "password":"password",
+        "password":"auth0|58d403842da1ce3061e5e0de",
         "username": "Liv",
         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
         "social_login": "auth0|58d403842da1ce3061e5e0de"
