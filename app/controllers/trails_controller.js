@@ -15,6 +15,9 @@ const rp = require('request-promise');
 class TrailsController extends AuthController {
 
   index() {
+    this.authorize((accessToken, user) => {
+      this.params.body.user_id = user.get('id');
+    });
     Trail.query()
       .where(this.params.query)
       .join('crumb')
@@ -61,6 +64,9 @@ class TrailsController extends AuthController {
       });
   }
   show() {
+    this.authorize((accessToken, user) => {
+      this.params.body.user_id = user.get('id');
+    });
     Trail.find(this.params.route.id, (err, model) => {
       this.respond(err || model, [
         'id',

@@ -7,28 +7,28 @@ const Nodal = require('nodal');
 const User = Nodal.require('app/models/user.js');
 const AccessToken = Nodal.require('app/models/access_token.js');
 const AuthController = Nodal.require('app/controllers/auth_controller.js');
-const rp = require('request-promise');
 
 class UsersController extends AuthController {
   index() {
+    // if (this.params.query.social)
     User.query()
-      .where(this.params.query)
-      .join('trail')
-      .join('savedtrail')
-      .end((err, models) => {
-        if (err) { this.respond(err); }
-        this.respond(models, [
-          'id',
-          'email',
-          'username',
-          'score',
-          'total_completed',
-          'current_trail',
-          'profile_picture',
-          { trail: ['id'] },
-          { savedtrail: ['id'] },
-        ]);
-      });
+    .where(this.params.query)
+    .join('savedtrail')
+    .join('trail')
+    .end((err, models) => {
+      this.respond(err || models, [
+        'id',
+        'email',
+        'username',
+        'score',
+        'total_completed',
+        'current_trail',
+        'profile_picture',
+        'social_login',
+        { trail: ['id'] },
+        { savedtrail: ['id'] },
+      ]);
+    });
   }
   show() {
     User.find(this.params.route.id, (err, model) => {
