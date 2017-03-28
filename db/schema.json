@@ -119,6 +119,7 @@
         {"name": "email", "type": "string", "properties": {"unique":true}},
         {"name": "score", "type": "int", "properties": {}},
         {"name": "total_completed", "type": "int", "properties": {}},
+        {"name": "access_token", "type": "string", "properties": {}},
         {"name": "current_trail", "type": "int", "properties": {}},
         {"name": "password", "type": "string", "properties": {}},
         {"name": "username", "type": "string", "properties": {"unique":true}},

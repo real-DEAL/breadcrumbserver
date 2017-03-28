@@ -72,6 +72,6 @@ class AccessToken extends Nodal.Model {
 AccessToken.setDatabase(Nodal.require('db/main.js'));
 AccessToken.setSchema(Nodal.my.Schema.models.AccessToken);
 
-AccessToken.joinsTo(User, { multiple: true });
+AccessToken.joinsTo(User, { multiple: true, as: 'accesstoken' });
 
 module.exports = AccessToken;

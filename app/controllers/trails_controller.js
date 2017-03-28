@@ -117,6 +117,9 @@ class TrailsController extends AuthController {
     */
     const crumbs = this.params.body.crumbs;
     Trail.create(this.params.body, (err, model) => {
+      if (err) {
+        this.respond(err);
+      }
       crumbs.forEach((crumb) => {
         crumb.trail_id = model._data.id;
         rp({ method: 'POST',
