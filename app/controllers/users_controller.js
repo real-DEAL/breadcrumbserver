@@ -54,6 +54,7 @@ class UsersController extends AuthController {
     **/
     User.create(this.params.body, (err) => {
       if (err) { this.respond(err); }
+      this.params.body.grant_type = 'password';
       AccessToken.login(this.params, (error, accessToken) => {
         if (err) { this.respond(err); }
         this.params.body.access_token = accessToken._data.access_token;
