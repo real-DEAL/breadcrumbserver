@@ -1,16 +1,72 @@
 {
 
   "development": {
+    "ArMessage": [
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 1,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 90,
+        "crumb_id": 2,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 3,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 50,
+        "crumb_id": 4,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 140,
+        "crumb_id": 5,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 6,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 7,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 8,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 9,
+        "message":"Hey Listen!"
+      }
+    ],
     "User":[
           {
-           "email":"Eric@email.com",
+           "email":"Eperiou@yahoo.com",
            "score":10,
            "total_completed":1,
            "current_trail":1,
-           "password":"password",
+           "password":"auth0|58d4745c2da1ce3061e602e7",
            "username": "Eperiou",
            "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490230012/eric_ldbbsw.jpg",
-           "social_login": null
+           "social_login": "auth0|58d4745c2da1ce3061e602e7"
          },
          {
           "email":"Alice@email.com",
@@ -37,7 +93,7 @@
         "score":30,
         "total_completed":3,
         "current_trail":3,
-        "password":"password",
+        "password":"auth0|58d403842da1ce3061e5e0ded403842da1ce3061e5e0de",
         "username": "Liv",
         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
         "social_login": "auth0|58d403842da1ce3061e5e0de"
@@ -98,87 +154,6 @@
        }
      ],
      "Crumb": [
-       {
-         "trail_id": 4,
-         "name": "St. Patty's church",
-         "description": "The church right next to operation spark",
-         "order_number": 1,
-         "latitude": 29.946597,
-         "longitude": -90.069851,
-         "radius": 100,
-         "notification_id": 2,
-         "title": "You found  St.Patricks church",
-         "small_icon": "string",
-         "open_app_on_click": false,
-         "vibration": 6,
-         "data": "",
-         "text": "This is St patricks church, congrats you made it",
-         "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-         "ar": "string",
-         "clue": "I hope you found it cause its cool ",
-         "challenge": {
-              "type":"picture",
-              "keywords": ["flower", "pot", "plant", "petals", "petal"],
-              "detection":"label"
-
-         },
-         "media_text": "Congratulations, here is your reward text"
-       },
-       {
-         "trail_id": 4,
-         "name": "Pulp n grind",
-         "description": "The soulful coffeeshop",
-         "order_number": 2,
-         "latitude": 29.947143,
-         "longitude": -90.069855,
-         "radius": 100,
-         "notification_id": 2,
-         "title": "Where you get the go fast juice",
-         "small_icon": "string",
-         "open_app_on_click": false,
-         "vibration": 6,
-         "data": "",
-         "text": "yummy coffee",
-         "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-         "ar": "string",
-         "clue": "Find the place where you can get Oj and coffee",
-         "challenge": {
-              "type":"picture",
-              "keywords": ["flower", "pot", "plant", "petals", "petal"],
-              "detection":"label"
-
-         },
-         "media_text": "Now you have plus 5 to speed"
-       },
-       {
-         "trail_id": 4,
-         "name": "Operation Spark",
-         "description": "The Beginning",
-         "order_number": 2,
-         "latitude": 29.945972,
-         "longitude": -90.070166,
-         "radius": 100,
-         "notification_id": 2,
-         "title": "This is the place from whence you came",
-         "small_icon": "string",
-         "open_app_on_click": false,
-         "vibration": 6,
-         "data": "",
-         "text": "A Triumphant return to Operation Spark",
-         "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-         "ar": "string",
-         "clue": "Return to the place you did depart, you should know its well, cause it was the start.",
-         "challenge": {
-              "type":"picture",
-              "keywords": ["flower", "pot", "plant", "petals", "petal"],
-              "detection":"label"
-
-         },
-         "media_text": "You have made it to the beginning."
-       },
        {
          "trail_id": 1,
          "name": "St. Patty's church",
@@ -262,87 +237,6 @@
       },
       {
         "trail_id": 2,
-        "name": "Pulp n grind",
-        "description": "The soulful coffeeshop",
-        "order_number": 1,
-        "latitude": 29.947143,
-        "longitude": -90.069855,
-        "radius": 100,
-        "notification_id": 2,
-        "title": "Where you get the go fast juice",
-        "small_icon": "string",
-        "open_app_on_click": false,
-        "vibration": 6,
-        "data": "",
-        "text": "yummy coffee",
-        "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-        "ar": "string",
-        "clue": "Find the place where you can get Oj and coffee",
-        "challenge": {
-             "type":"picture",
-             "keywords": ["flower", "pot", "plant", "petals", "petal"],
-             "detection":"label"
-
-        },
-        "media_text": "Now you have plus 5 to speed"
-      },
-      {
-        "trail_id": 2,
-        "name": "The second Corner",
-        "description": "A short stroll accross the park to find the next mark",
-        "order_number": 2,
-        "latitude": 29.948650,
-        "longitude": -90.069566,
-        "radius": 100,
-        "notification_id": 2,
-        "title": "This is the next place on the list",
-        "small_icon": "string",
-        "open_app_on_click": false,
-        "vibration": 6,
-        "data": "",
-        "text": "yummy coffeet",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BenFranklinDuplessis.jpg/220px-BenFranklinDuplessis.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-        "ar": "string",
-        "clue": "a short Jaunt past Franklins mount, its just one more if you can count",
-        "challenge": {
-             "type":"picture",
-             "keywords": ["flower", "pot", "plant", "petals", "petal"],
-             "detection":"label"
-
-        },
-        "media_text": "Your trail is shorter now, you'll make it home but I don't know how."
-      },
-      {
-        "trail_id": 2,
-        "name": "The last it",
-        "description": "This will be the last part of your simple trail, you should complete it without fail",
-        "order_number": 3,
-        "latitude": 29.9492847,
-        "longitude": -90.0699911,
-        "radius": 100,
-        "notification_id": 3,
-        "title": "This is the next place on the list",
-        "small_icon": "string",
-        "open_app_on_click": false,
-        "vibration": 6,
-        "data": "",
-        "text": "yummy coffeet",
-        "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-        "ar": "string",
-        "clue": "a short walk around the corner",
-        "challenge": {
-             "type":"picture",
-             "keywords": ["flower", "pot", "plant", "petals", "petal"],
-             "detection":"label"
-
-        },
-        "media_text": "Congratulations and go back to start, it was the place you did depart"
-      },
-      {
-        "trail_id": 3,
         "name": "The Bulldog",
         "description": "The bulldog, one of the best places to stop and grab a pint. Feel free to stop in and grab a quick one",
         "order_number": 1,
@@ -369,7 +263,7 @@
         "media_text": "You've made it to one of my favorite places"
       },
       {
-        "trail_id": 3,
+        "trail_id": 2,
         "name": "Pat'O's ",
         "description": "Come join the dueling pianos and try the World famous hurricane",
         "order_number": 2,
@@ -396,7 +290,7 @@
         "media_text": "You've made it, theres a lot of history in this place, check out some of the cool photos in the back bar"
       },
       {
-        "trail_id": 3,
+        "trail_id": 2,
         "name": "Port O' Call",
         "description": "This is a popular pirate bar in the bywater area. It's famous for its fun atmosphere, cool drinks, and hearty steaks. Stop in and stay awhile.",
         "order_number": 3,
@@ -423,7 +317,88 @@
         "media_text": "Your victory for this is a tasty dinner and cool beverage"
       },
       {
-        "trail_id": 5,
+        "trail_id": 3,
+        "name": "St. Patty's church",
+        "description": "The church right next to operation spark",
+        "order_number": 1,
+        "latitude": 29.946597,
+        "longitude": -90.069851,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "You found  St.Patricks church",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "This is St patricks church, congrats you made it",
+        "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "ar": "string",
+        "clue": "I hope you found it cause its cool ",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "pot", "plant", "petals", "petal"],
+             "detection":"label"
+
+        },
+        "media_text": "Congratulations, here is your reward text"
+      },
+      {
+        "trail_id": 3,
+        "name": "Pulp n grind",
+        "description": "The soulful coffeeshop",
+        "order_number": 2,
+        "latitude": 29.947143,
+        "longitude": -90.069855,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "Where you get the go fast juice",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "yummy coffee",
+        "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "ar": "string",
+        "clue": "Find the place where you can get Oj and coffee",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "pot", "plant", "petals", "petal"],
+             "detection":"label"
+
+        },
+        "media_text": "Now you have plus 5 to speed"
+      },
+      {
+        "trail_id": 3,
+        "name": "Operation Spark",
+        "description": "The Beginning",
+        "order_number": 2,
+        "latitude": 29.945972,
+        "longitude": -90.070166,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "This is the place from whence you came",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "A Triumphant return to Operation Spark",
+        "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "ar": "string",
+        "clue": "Return to the place you did depart, you should know its well, cause it was the start.",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "pot", "plant", "petals", "petal"],
+             "detection":"label"
+
+        },
+        "media_text": "You have made it to the beginning."
+      },
+      {
+        "trail_id": 4,
         "name": "Ignatius Reilly",
         "description": "This person made famous in The Confederacy of Dunces has a statue guarding the gates to the quarter.",
         "order_number": 1,
@@ -450,7 +425,7 @@
         "media_text": "Ignatius Jacques Reilly is something of a modern Don Quixote—eccentric, idealistic, and creative, sometimes to the point of delusion.[2] In his foreword to the book, Walker Percy describes Ignatius as a 'slob extraordinary, a mad Oliver Hardy, a fat Don Quixote, a perverse Thomas Aquinas rolled into one'. He disdains modernity, particularly pop culture. The disdain becomes his obsession: he goes to movies in order to mock their perversity and express his outrage with the contemporary world's lack of 'theology and geometry'. He prefers the scholastic philosophy of the Middle Ages, and the Early Medieval philosopher Boethius in particular.[4] However, he also enjoys many modern comforts and conveniences and is given to claiming that the rednecks of rural Louisiana hate all modern technology which they associate with progress. The workings of his pyloric valve play an important role in his life, reacting strongly to incidents in a fashion that he likens to Cassandra in terms of prophetic significance."
       },
       {
-        "trail_id": 5,
+        "trail_id": 4,
         "name": "The Fat Man",
         "description": "This artist is a New Orleans rhythmn and Blues legend, with famous songs such as 'I'm Walkin', and 'Whole Lotta Loving'",
         "order_number": 2,
@@ -477,7 +452,7 @@
         "media_text": "Musical Legends Park is centrally located at 311 Bourbon Street. The heart of the Park is a tribute to New Orleans Musical Legends and includes a series of commemorative displays, plaques and artwork. The Park provides a warm, intimate escape for local and visiting music lovers. Musicians are invited to play for outdoor audiences. Performances are free to the public."
       },
       {
-        "trail_id": 5,
+        "trail_id": 4,
         "name": "And He's Feelin Fine",
         "description": "Find the Big Chief of Professor Longhair fame",
         "order_number": 3,
@@ -504,7 +479,7 @@
         "media_text": "From age four in 1937 to his death in 1998, Donald Harrison Sr. embraced the tradition of New Orleans' Mardi Gras Indians. As Big Chief of the Guardian of the Flames, he led with both wisdom and passion. This biography of this remarkable man is based on more than seventy interviews with his family and others he influenced."
       },
       {
-        "trail_id": 5,
+        "trail_id": 4,
         "name": "The Maid",
         "description": "She was known as the heroine of France",
         "order_number": 3,
@@ -534,7 +509,7 @@
      "Savedtrail": [
       {
         "user_id": 4,
-        "trail_id": 4,
+        "trail_id": 3,
         "position": 2,
         "time_start": 1420,
         "time_finished": 1500
@@ -548,7 +523,7 @@
       },
       {
         "user_id": 4,
-        "trail_id": 3,
+        "trail_id": 2,
         "position": 3,
         "time_start": 1420,
         "time_finished": 1500
@@ -647,16 +622,128 @@
     ]
   },
   "test": {
+    "ArMessage": [
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 1,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 90,
+        "crumb_id": 2,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 3,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 50,
+        "crumb_id": 4,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 140,
+        "crumb_id": 5,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 6,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 7,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 8,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 9,
+        "message":"Hey Listen!"
+      }
+    ],
+    "ArMessage": [
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 1,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 90,
+        "crumb_id": 2,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 3,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 50,
+        "crumb_id": 4,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 140,
+        "crumb_id": 5,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 6,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 7,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 8,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 9,
+        "message":"Hey Listen!"
+      }
+    ],
     "User":[
           {
            "email":"Eric@email.com",
            "score":10,
            "total_completed":1,
            "current_trail":1,
-           "password":"password",
+           "password":"auth0|58d4745c2da1ce3061e602e7",
            "username": "Eperiou",
            "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490230012/eric_ldbbsw.jpg",
-           "social_login": null
+           "social_login": "auth0|58d4745c2da1ce3061e602e7"
          },
          {
           "email":"Alice@email.com",
@@ -683,10 +770,11 @@
         "score":30,
         "total_completed":3,
         "current_trail":3,
-        "password":"password",
+        "password":"auth0|58d403842da1ce3061e5e0de",
         "username": "Liv",
         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
-        "social_login": "auth0|58d403842da1ce3061e5e0de"      }
+        "social_login": "auth0|58d403842da1ce3061e5e0de"
+      }
      ],
      "Trail": [
        {
@@ -743,87 +831,6 @@
        }
      ],
      "Crumb": [
-       {
-         "trail_id": 4,
-         "name": "St. Patty's church",
-         "description": "The church right next to operation spark",
-         "order_number": 1,
-         "latitude": 29.946597,
-         "longitude": -90.069851,
-         "radius": 100,
-         "notification_id": 2,
-         "title": "You found  St.Patricks church",
-         "small_icon": "string",
-         "open_app_on_click": false,
-         "vibration": 6,
-         "data": "",
-         "text": "This is St patricks church, congrats you made it",
-         "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-         "ar": "string",
-         "clue": "I hope you found it cause its cool ",
-         "challenge": {
-              "type":"picture",
-              "keywords": ["flower", "pot", "plant", "petals", "petal"],
-              "detection":"label"
-
-         },
-         "media_text": "Congratulations, here is your reward text"
-       },
-       {
-         "trail_id": 4,
-         "name": "Pulp n grind",
-         "description": "The soulful coffeeshop",
-         "order_number": 2,
-         "latitude": 29.947143,
-         "longitude": -90.069855,
-         "radius": 100,
-         "notification_id": 2,
-         "title": "Where you get the go fast juice",
-         "small_icon": "string",
-         "open_app_on_click": false,
-         "vibration": 6,
-         "data": "",
-         "text": "yummy coffee",
-         "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-         "ar": "string",
-         "clue": "Find the place where you can get Oj and coffee",
-         "challenge": {
-              "type":"picture",
-              "keywords": ["flower", "pot", "plant", "petals", "petal"],
-              "detection":"label"
-
-         },
-         "media_text": "Now you have plus 5 to speed"
-       },
-       {
-         "trail_id": 4,
-         "name": "Operation Spark",
-         "description": "The Beginning",
-         "order_number": 2,
-         "latitude": 29.945972,
-         "longitude": -90.070166,
-         "radius": 100,
-         "notification_id": 2,
-         "title": "This is the place from whence you came",
-         "small_icon": "string",
-         "open_app_on_click": false,
-         "vibration": 6,
-         "data": "",
-         "text": "A Triumphant return to Operation Spark",
-         "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-         "ar": "string",
-         "clue": "Return to the place you did depart, you should know its well, cause it was the start.",
-         "challenge": {
-              "type":"picture",
-              "keywords": ["flower", "pot", "plant", "petals", "petal"],
-              "detection":"label"
-
-         },
-         "media_text": "You have made it to the beginning."
-       },
        {
          "trail_id": 1,
          "name": "St. Patty's church",
@@ -907,87 +914,6 @@
       },
       {
         "trail_id": 2,
-        "name": "Pulp n grind",
-        "description": "The soulful coffeeshop",
-        "order_number": 1,
-        "latitude": 29.947143,
-        "longitude": -90.069855,
-        "radius": 100,
-        "notification_id": 2,
-        "title": "Where you get the go fast juice",
-        "small_icon": "string",
-        "open_app_on_click": false,
-        "vibration": 6,
-        "data": "",
-        "text": "yummy coffee",
-        "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-        "ar": "string",
-        "clue": "Find the place where you can get Oj and coffee",
-        "challenge": {
-             "type":"picture",
-             "keywords": ["flower", "pot", "plant", "petals", "petal"],
-             "detection":"label"
-
-        },
-        "media_text": "Now you have plus 5 to speed"
-      },
-      {
-        "trail_id": 2,
-        "name": "The second Corner",
-        "description": "A short stroll accross the park to find the next mark",
-        "order_number": 2,
-        "latitude": 29.948650,
-        "longitude": -90.069566,
-        "radius": 100,
-        "notification_id": 2,
-        "title": "This is the next place on the list",
-        "small_icon": "string",
-        "open_app_on_click": false,
-        "vibration": 6,
-        "data": "",
-        "text": "yummy coffeet",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BenFranklinDuplessis.jpg/220px-BenFranklinDuplessis.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-        "ar": "string",
-        "clue": "a short Jaunt past Franklins mount, its just one more if you can count",
-        "challenge": {
-             "type":"picture",
-             "keywords": ["flower", "pot", "plant", "petals", "petal"],
-             "detection":"label"
-
-        },
-        "media_text": "Your trail is shorter now, you'll make it home but I don't know how."
-      },
-      {
-        "trail_id": 2,
-        "name": "The last it",
-        "description": "This will be the last part of your simple trail, you should complete it without fail",
-        "order_number": 3,
-        "latitude": 29.9492847,
-        "longitude": -90.0699911,
-        "radius": 100,
-        "notification_id": 3,
-        "title": "This is the next place on the list",
-        "small_icon": "string",
-        "open_app_on_click": false,
-        "vibration": 6,
-        "data": "",
-        "text": "yummy coffeet",
-        "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-        "ar": "string",
-        "clue": "a short walk around the corner",
-        "challenge": {
-             "type":"picture",
-             "keywords": ["flower", "pot", "plant", "petals", "petal"],
-             "detection":"label"
-
-        },
-        "media_text": "Congratulations and go back to start, it was the place you did depart"
-      },
-      {
-        "trail_id": 3,
         "name": "The Bulldog",
         "description": "The bulldog, one of the best places to stop and grab a pint. Feel free to stop in and grab a quick one",
         "order_number": 1,
@@ -1014,7 +940,7 @@
         "media_text": "You've made it to one of my favorite places"
       },
       {
-        "trail_id": 3,
+        "trail_id": 2,
         "name": "Pat'O's ",
         "description": "Come join the dueling pianos and try the World famous hurricane",
         "order_number": 2,
@@ -1041,7 +967,7 @@
         "media_text": "You've made it, theres a lot of history in this place, check out some of the cool photos in the back bar"
       },
       {
-        "trail_id": 3,
+        "trail_id": 2,
         "name": "Port O' Call",
         "description": "This is a popular pirate bar in the bywater area. It's famous for its fun atmosphere, cool drinks, and hearty steaks. Stop in and stay awhile.",
         "order_number": 3,
@@ -1068,7 +994,88 @@
         "media_text": "Your victory for this is a tasty dinner and cool beverage"
       },
       {
-        "trail_id": 5,
+        "trail_id": 3,
+        "name": "St. Patty's church",
+        "description": "The church right next to operation spark",
+        "order_number": 1,
+        "latitude": 29.946597,
+        "longitude": -90.069851,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "You found  St.Patricks church",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "This is St patricks church, congrats you made it",
+        "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "ar": "string",
+        "clue": "I hope you found it cause its cool ",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "pot", "plant", "petals", "petal"],
+             "detection":"label"
+
+        },
+        "media_text": "Congratulations, here is your reward text"
+      },
+      {
+        "trail_id": 3,
+        "name": "Pulp n grind",
+        "description": "The soulful coffeeshop",
+        "order_number": 2,
+        "latitude": 29.947143,
+        "longitude": -90.069855,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "Where you get the go fast juice",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "yummy coffee",
+        "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "ar": "string",
+        "clue": "Find the place where you can get Oj and coffee",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "pot", "plant", "petals", "petal"],
+             "detection":"label"
+
+        },
+        "media_text": "Now you have plus 5 to speed"
+      },
+      {
+        "trail_id": 3,
+        "name": "Operation Spark",
+        "description": "The Beginning",
+        "order_number": 2,
+        "latitude": 29.945972,
+        "longitude": -90.070166,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "This is the place from whence you came",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "A Triumphant return to Operation Spark",
+        "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "ar": "string",
+        "clue": "Return to the place you did depart, you should know its well, cause it was the start.",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "pot", "plant", "petals", "petal"],
+             "detection":"label"
+
+        },
+        "media_text": "You have made it to the beginning."
+      },
+      {
+        "trail_id": 4,
         "name": "Ignatius Reilly",
         "description": "This person made famous in The Confederacy of Dunces has a statue guarding the gates to the quarter.",
         "order_number": 1,
@@ -1095,7 +1102,7 @@
         "media_text": "Ignatius Jacques Reilly is something of a modern Don Quixote—eccentric, idealistic, and creative, sometimes to the point of delusion.[2] In his foreword to the book, Walker Percy describes Ignatius as a 'slob extraordinary, a mad Oliver Hardy, a fat Don Quixote, a perverse Thomas Aquinas rolled into one'. He disdains modernity, particularly pop culture. The disdain becomes his obsession: he goes to movies in order to mock their perversity and express his outrage with the contemporary world's lack of 'theology and geometry'. He prefers the scholastic philosophy of the Middle Ages, and the Early Medieval philosopher Boethius in particular.[4] However, he also enjoys many modern comforts and conveniences and is given to claiming that the rednecks of rural Louisiana hate all modern technology which they associate with progress. The workings of his pyloric valve play an important role in his life, reacting strongly to incidents in a fashion that he likens to Cassandra in terms of prophetic significance."
       },
       {
-        "trail_id": 5,
+        "trail_id": 4,
         "name": "The Fat Man",
         "description": "This artist is a New Orleans rhythmn and Blues legend, with famous songs such as 'I'm Walkin', and 'Whole Lotta Loving'",
         "order_number": 2,
@@ -1122,7 +1129,7 @@
         "media_text": "Musical Legends Park is centrally located at 311 Bourbon Street. The heart of the Park is a tribute to New Orleans Musical Legends and includes a series of commemorative displays, plaques and artwork. The Park provides a warm, intimate escape for local and visiting music lovers. Musicians are invited to play for outdoor audiences. Performances are free to the public."
       },
       {
-        "trail_id": 5,
+        "trail_id": 4,
         "name": "And He's Feelin Fine",
         "description": "Find the Big Chief of Professor Longhair fame",
         "order_number": 3,
@@ -1149,7 +1156,7 @@
         "media_text": "From age four in 1937 to his death in 1998, Donald Harrison Sr. embraced the tradition of New Orleans' Mardi Gras Indians. As Big Chief of the Guardian of the Flames, he led with both wisdom and passion. This biography of this remarkable man is based on more than seventy interviews with his family and others he influenced."
       },
       {
-        "trail_id": 5,
+        "trail_id": 4,
         "name": "The Maid",
         "description": "She was known as the heroine of France",
         "order_number": 3,
@@ -1179,7 +1186,7 @@
      "Savedtrail": [
       {
         "user_id": 4,
-        "trail_id": 4,
+        "trail_id": 3,
         "position": 2,
         "time_start": 1420,
         "time_finished": 1500
@@ -1193,7 +1200,7 @@
       },
       {
         "user_id": 4,
-        "trail_id": 3,
+        "trail_id": 2,
         "position": 3,
         "time_start": 1420,
         "time_finished": 1500
@@ -1292,16 +1299,72 @@
     ]
   },
   "production": {
+    "ArMessage": [
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 1,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 90,
+        "crumb_id": 2,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 3,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 50,
+        "crumb_id": 4,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 140,
+        "crumb_id": 5,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 6,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 10,
+        "crumb_id": 7,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 8,
+        "message":"Hey Listen!"
+      },
+      {
+        "username": "eperiou",
+        "bearing": 120,
+        "crumb_id": 9,
+        "message":"Hey Listen!"
+      }
+    ],
     "User":[
           {
            "email":"Eric@email.com",
            "score":10,
            "total_completed":1,
            "current_trail":1,
-           "password":"password",
+           "password":"auth0|58d4745c2da1ce3061e602e7",
            "username": "Eperiou",
            "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490230012/eric_ldbbsw.jpg",
-           "social_login": null
+           "social_login": "auth0|58d4745c2da1ce3061e602e7"
          },
          {
           "email":"Alice@email.com",
@@ -1328,7 +1391,7 @@
         "score":30,
         "total_completed":3,
         "current_trail":3,
-        "password":"password",
+        "password":"auth0|58d403842da1ce3061e5e0de",
         "username": "Liv",
         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
         "social_login": "auth0|58d403842da1ce3061e5e0de"
@@ -1389,87 +1452,6 @@
        }
      ],
      "Crumb": [
-       {
-         "trail_id": 4,
-         "name": "St. Patty's church",
-         "description": "The church right next to operation spark",
-         "order_number": 1,
-         "latitude": 29.946597,
-         "longitude": -90.069851,
-         "radius": 100,
-         "notification_id": 2,
-         "title": "You found  St.Patricks church",
-         "small_icon": "string",
-         "open_app_on_click": false,
-         "vibration": 6,
-         "data": "",
-         "text": "This is St patricks church, congrats you made it",
-         "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-         "ar": "string",
-         "clue": "I hope you found it cause its cool ",
-         "challenge": {
-              "type":"picture",
-              "keywords": ["flower", "pot", "plant", "petals", "petal"],
-              "detection":"label"
-
-         },
-         "media_text": "Congratulations, here is your reward text"
-       },
-       {
-         "trail_id": 4,
-         "name": "Pulp n grind",
-         "description": "The soulful coffeeshop",
-         "order_number": 2,
-         "latitude": 29.947143,
-         "longitude": -90.069855,
-         "radius": 100,
-         "notification_id": 2,
-         "title": "Where you get the go fast juice",
-         "small_icon": "string",
-         "open_app_on_click": false,
-         "vibration": 6,
-         "data": "",
-         "text": "yummy coffee",
-         "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-         "ar": "string",
-         "clue": "Find the place where you can get Oj and coffee",
-         "challenge": {
-              "type":"picture",
-              "keywords": ["flower", "pot", "plant", "petals", "petal"],
-              "detection":"label"
-
-         },
-         "media_text": "Now you have plus 5 to speed"
-       },
-       {
-         "trail_id": 4,
-         "name": "Operation Spark",
-         "description": "The Beginning",
-         "order_number": 2,
-         "latitude": 29.945972,
-         "longitude": -90.070166,
-         "radius": 100,
-         "notification_id": 2,
-         "title": "This is the place from whence you came",
-         "small_icon": "string",
-         "open_app_on_click": false,
-         "vibration": 6,
-         "data": "",
-         "text": "A Triumphant return to Operation Spark",
-         "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-         "ar": "string",
-         "clue": "Return to the place you did depart, you should know its well, cause it was the start.",
-         "challenge": {
-              "type":"picture",
-              "keywords": ["flower", "pot", "plant", "petals", "petal"],
-              "detection":"label"
-
-         },
-         "media_text": "You have made it to the beginning."
-       },
        {
          "trail_id": 1,
          "name": "St. Patty's church",
@@ -1553,87 +1535,6 @@
       },
       {
         "trail_id": 2,
-        "name": "Pulp n grind",
-        "description": "The soulful coffeeshop",
-        "order_number": 1,
-        "latitude": 29.947143,
-        "longitude": -90.069855,
-        "radius": 100,
-        "notification_id": 2,
-        "title": "Where you get the go fast juice",
-        "small_icon": "string",
-        "open_app_on_click": false,
-        "vibration": 6,
-        "data": "",
-        "text": "yummy coffee",
-        "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-        "ar": "string",
-        "clue": "Find the place where you can get Oj and coffee",
-        "challenge": {
-             "type":"picture",
-             "keywords": ["flower", "pot", "plant", "petals", "petal"],
-             "detection":"label"
-
-        },
-        "media_text": "Now you have plus 5 to speed"
-      },
-      {
-        "trail_id": 2,
-        "name": "The second Corner",
-        "description": "A short stroll accross the park to find the next mark",
-        "order_number": 2,
-        "latitude": 29.948650,
-        "longitude": -90.069566,
-        "radius": 100,
-        "notification_id": 2,
-        "title": "This is the next place on the list",
-        "small_icon": "string",
-        "open_app_on_click": false,
-        "vibration": 6,
-        "data": "",
-        "text": "yummy coffeet",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BenFranklinDuplessis.jpg/220px-BenFranklinDuplessis.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-        "ar": "string",
-        "clue": "a short Jaunt past Franklins mount, its just one more if you can count",
-        "challenge": {
-             "type":"picture",
-             "keywords": ["flower", "pot", "plant", "petals", "petal"],
-             "detection":"label"
-
-        },
-        "media_text": "Your trail is shorter now, you'll make it home but I don't know how."
-      },
-      {
-        "trail_id": 2,
-        "name": "The last it",
-        "description": "This will be the last part of your simple trail, you should complete it without fail",
-        "order_number": 3,
-        "latitude": 29.9492847,
-        "longitude": -90.0699911,
-        "radius": 100,
-        "notification_id": 3,
-        "title": "This is the next place on the list",
-        "small_icon": "string",
-        "open_app_on_click": false,
-        "vibration": 6,
-        "data": "",
-        "text": "yummy coffeet",
-        "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
-        "ar": "string",
-        "clue": "a short walk around the corner",
-        "challenge": {
-             "type":"picture",
-             "keywords": ["flower", "pot", "plant", "petals", "petal"],
-             "detection":"label"
-
-        },
-        "media_text": "Congratulations and go back to start, it was the place you did depart"
-      },
-      {
-        "trail_id": 3,
         "name": "The Bulldog",
         "description": "The bulldog, one of the best places to stop and grab a pint. Feel free to stop in and grab a quick one",
         "order_number": 1,
@@ -1660,7 +1561,7 @@
         "media_text": "You've made it to one of my favorite places"
       },
       {
-        "trail_id": 3,
+        "trail_id": 2,
         "name": "Pat'O's ",
         "description": "Come join the dueling pianos and try the World famous hurricane",
         "order_number": 2,
@@ -1687,7 +1588,7 @@
         "media_text": "You've made it, theres a lot of history in this place, check out some of the cool photos in the back bar"
       },
       {
-        "trail_id": 3,
+        "trail_id": 2,
         "name": "Port O' Call",
         "description": "This is a popular pirate bar in the bywater area. It's famous for its fun atmosphere, cool drinks, and hearty steaks. Stop in and stay awhile.",
         "order_number": 3,
@@ -1714,7 +1615,88 @@
         "media_text": "Your victory for this is a tasty dinner and cool beverage"
       },
       {
-        "trail_id": 5,
+        "trail_id": 3,
+        "name": "St. Patty's church",
+        "description": "The church right next to operation spark",
+        "order_number": 1,
+        "latitude": 29.946597,
+        "longitude": -90.069851,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "You found  St.Patricks church",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "This is St patricks church, congrats you made it",
+        "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "ar": "string",
+        "clue": "I hope you found it cause its cool ",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "pot", "plant", "petals", "petal"],
+             "detection":"label"
+
+        },
+        "media_text": "Congratulations, here is your reward text"
+      },
+      {
+        "trail_id": 3,
+        "name": "Pulp n grind",
+        "description": "The soulful coffeeshop",
+        "order_number": 2,
+        "latitude": 29.947143,
+        "longitude": -90.069855,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "Where you get the go fast juice",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "yummy coffee",
+        "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "ar": "string",
+        "clue": "Find the place where you can get Oj and coffee",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "pot", "plant", "petals", "petal"],
+             "detection":"label"
+
+        },
+        "media_text": "Now you have plus 5 to speed"
+      },
+      {
+        "trail_id": 3,
+        "name": "Operation Spark",
+        "description": "The Beginning",
+        "order_number": 2,
+        "latitude": 29.945972,
+        "longitude": -90.070166,
+        "radius": 100,
+        "notification_id": 2,
+        "title": "This is the place from whence you came",
+        "small_icon": "string",
+        "open_app_on_click": false,
+        "vibration": 6,
+        "data": "",
+        "text": "A Triumphant return to Operation Spark",
+        "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
+        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "ar": "string",
+        "clue": "Return to the place you did depart, you should know its well, cause it was the start.",
+        "challenge": {
+             "type":"picture",
+             "keywords": ["flower", "pot", "plant", "petals", "petal"],
+             "detection":"label"
+
+        },
+        "media_text": "You have made it to the beginning."
+      },
+      {
+        "trail_id": 4,
         "name": "Ignatius Reilly",
         "description": "This person made famous in The Confederacy of Dunces has a statue guarding the gates to the quarter.",
         "order_number": 1,
@@ -1741,7 +1723,7 @@
         "media_text": "Ignatius Jacques Reilly is something of a modern Don Quixote—eccentric, idealistic, and creative, sometimes to the point of delusion.[2] In his foreword to the book, Walker Percy describes Ignatius as a 'slob extraordinary, a mad Oliver Hardy, a fat Don Quixote, a perverse Thomas Aquinas rolled into one'. He disdains modernity, particularly pop culture. The disdain becomes his obsession: he goes to movies in order to mock their perversity and express his outrage with the contemporary world's lack of 'theology and geometry'. He prefers the scholastic philosophy of the Middle Ages, and the Early Medieval philosopher Boethius in particular.[4] However, he also enjoys many modern comforts and conveniences and is given to claiming that the rednecks of rural Louisiana hate all modern technology which they associate with progress. The workings of his pyloric valve play an important role in his life, reacting strongly to incidents in a fashion that he likens to Cassandra in terms of prophetic significance."
       },
       {
-        "trail_id": 5,
+        "trail_id": 4,
         "name": "The Fat Man",
         "description": "This artist is a New Orleans rhythmn and Blues legend, with famous songs such as 'I'm Walkin', and 'Whole Lotta Loving'",
         "order_number": 2,
@@ -1768,7 +1750,7 @@
         "media_text": "Musical Legends Park is centrally located at 311 Bourbon Street. The heart of the Park is a tribute to New Orleans Musical Legends and includes a series of commemorative displays, plaques and artwork. The Park provides a warm, intimate escape for local and visiting music lovers. Musicians are invited to play for outdoor audiences. Performances are free to the public."
       },
       {
-        "trail_id": 5,
+        "trail_id": 4,
         "name": "And He's Feelin Fine",
         "description": "Find the Big Chief of Professor Longhair fame",
         "order_number": 3,
@@ -1795,7 +1777,7 @@
         "media_text": "From age four in 1937 to his death in 1998, Donald Harrison Sr. embraced the tradition of New Orleans' Mardi Gras Indians. As Big Chief of the Guardian of the Flames, he led with both wisdom and passion. This biography of this remarkable man is based on more than seventy interviews with his family and others he influenced."
       },
       {
-        "trail_id": 5,
+        "trail_id": 4,
         "name": "The Maid",
         "description": "She was known as the heroine of France",
         "order_number": 3,
@@ -1825,7 +1807,7 @@
      "Savedtrail": [
       {
         "user_id": 4,
-        "trail_id": 4,
+        "trail_id": 3,
         "position": 2,
         "time_start": 1420,
         "time_finished": 1500
@@ -1839,7 +1821,7 @@
       },
       {
         "user_id": 4,
-        "trail_id": 3,
+        "trail_id": 2,
         "position": 3,
         "time_start": 1420,
         "time_finished": 1500

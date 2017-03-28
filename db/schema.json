@@ -1,8 +1,41 @@
 {
 
-  "migration_id": 2017031601450788,
+  "migration_id": 2017032721102402,
 
   "models": {
+
+    "AccessToken": {
+
+      "table": "access_tokens",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "user_id", "type": "int", "properties": {}},
+        {"name": "access_token", "type": "string", "properties": {}},
+        {"name": "token_type", "type": "string", "properties": {}},
+        {"name": "expires_at", "type": "datetime", "properties": {}},
+        {"name": "ip_address", "type": "string", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
+
+    "ArMessage": {
+
+      "table": "ar_messages",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "username", "type": "string", "properties": {}},
+        {"name": "message", "type": "text", "properties": {}},
+        {"name": "bearing", "type": "int", "properties": {}},
+        {"name": "crumb_id", "type": "int", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    },
 
     "Crumb": {
 
@@ -63,10 +96,11 @@
         {"name": "user_id", "type": "int", "properties": {}},
         {"name": "name", "type": "string", "properties": {}},
         {"name": "description", "type": "text", "properties": {}},
+        {"name": "max_rating", "type": "int", "properties": {}},
         {"name": "rating", "type": "int", "properties": {}},
         {"name": "transport", "type": "string", "properties": {}},
         {"name": "type", "type": "string", "properties": {}},
-        {"name": "length", "type": "string", "properties": {}},
+        {"name": "length", "type": "int", "properties": {}},
         {"name": "requires_money", "type": "boolean", "properties": {}},
         {"name": "difficulty", "type": "int", "properties": {}},
         {"name": "map", "type": "string", "properties": {}},
@@ -86,6 +120,7 @@
         {"name": "email", "type": "string", "properties": {"unique":true}},
         {"name": "score", "type": "int", "properties": {}},
         {"name": "total_completed", "type": "int", "properties": {}},
+        {"name": "access_token", "type": "string", "properties": {}},
         {"name": "current_trail", "type": "int", "properties": {}},
         {"name": "password", "type": "string", "properties": {}},
         {"name": "username", "type": "string", "properties": {"unique":true}},

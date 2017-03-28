@@ -18,6 +18,7 @@ class CreateUsers extends Nodal.Migration {
           { unique: true } },
           { name: 'score', type: 'int' },
           { name: 'total_completed', type: 'int' },
+          { name: 'access_token', type: 'string' },
           { name: 'current_trail', type: 'int' },
           { name: 'password', type: 'string' },
         { name: 'username',
