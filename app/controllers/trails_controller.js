@@ -120,8 +120,9 @@ class TrailsController extends AuthController {
       if (err) {
         this.respond(err);
       }
-      crumbs.forEach((crumb) => {
+      crumbs.forEach((crumb,ind) => {
         crumb.trail_id = model._data.id;
+        crumb.order_number = ind + 1;
         rp({ method: 'POST',
           uri: `${Nodal.my.Config.secrets.host}${Nodal.my.Config.secrets.port}/crumbs`,
           form: crumb,
@@ -158,7 +159,7 @@ class TrailsController extends AuthController {
         .then((crumbs) => {
           const crumbList = JSON.parse(crumbs).data;
           if (crumbList[0]) {
-            crumbList.forEach((crumb) => {
+            crumbList.forEach((crumb, ind) => {
               rp({ method: 'DELETE', uri: `${Nodal.my.Config.secrets.host}${Nodal.my.Config.secrets.port}/crumbs/${crumb.id}` })
               // .then((deletedcrumbs) => { console.warn(`deleted${deletedcrumbs}`); })
               .catch((error) => { console.warn(`Error deleting crumbs: ${error}`); });
