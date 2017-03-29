@@ -123,7 +123,8 @@ class TrailsController extends AuthController {
     Trail.create(this.params.body, (err, models) => {
       if (err) { this.respond(err); }
       const trailId = models.toObject(['id']);
-      this.params.body.crumbs.forEach((crumb) => {
+      this.params.body.crumbs.forEach((crumb, ind) => {
+        crumb.order_number = ind + 1;
         crumb.trail_id = trailId.id;
         Crumb.create(crumb, (error, success) => {
           this.respond(error || success);
