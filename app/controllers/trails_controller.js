@@ -10,7 +10,9 @@ const Nodal = require('nodal');
 const AuthController = Nodal.require('app/controllers/auth_controller.js');
 
 const Trail = Nodal.require('app/models/trail.js');
-const rp = require('request-promise');
+const Crumb = Nodal.require('app/models/crumb.js');
+const ModelArray = Nodal.require('node_modules/nodal/core/required/model_array.js');
+
 
 class TrailsController extends AuthController {
 
@@ -110,29 +112,22 @@ class TrailsController extends AuthController {
     this.authorize((accessToken, user) => {
       this.params.body.user_id = user.get('id');
     });
+
    /**
     * @param: trails and all their crumbs
     * @param: Ouput: sends request to server to submit all the crumbs
-    *
+    * Takes in trail, creates a model array from the crumbs adds the trail_id and
+    * saves to database
     */
-    const crumbs = this.params.body.crumbs;
-    Trail.create(this.params.body, (err, model) => {
-      if (err) {
-        this.respond(err);
-      }
-      crumbs.forEach((crumb,ind) => {
-        crumb.trail_id = model._data.id;
-        crumb.order_number = ind + 1;
-        rp({ method: 'POST',
-          uri: `${Nodal.my.Config.secrets.host}${Nodal.my.Config.secrets.port}/crumbs`,
-          form: crumb,
-        })
-       .then(() => {
-         this.respond('trail created');
-       })
-      .catch((error) => {
-        this.respond(`There was an error creating this trail ${error} `);
-      });
+
+    Trail.create(this.params.body, (err, models) => {
+      if (err) { this.respond(err); }
+      const trailId = models.toObject(['id']);
+      this.params.body.crumbs.forEach((crumb) => {
+        crumb.trail_id = trailId.id;
+        Crumb.create(crumb, (error, success) => {
+          this.respond(error || success);
+        });
       });
     });
   }
@@ -153,23 +148,15 @@ class TrailsController extends AuthController {
      * @param: Deletes the Trail and makes requessts to destroy all the crumbs of the same trail
      *
      */
-    const trailId = this.params.route.id;
-    Trail.destroy(trailId, (err) => {
-      rp({ method: 'GET', uri: `${Nodal.my.Config.secrets.host}${Nodal.my.Config.secrets.port}/crumbs?trail_id=${trailId}` })
-        .then((crumbs) => {
-          const crumbList = JSON.parse(crumbs).data;
-          if (crumbList[0]) {
-            crumbList.forEach((crumb, ind) => {
-              rp({ method: 'DELETE', uri: `${Nodal.my.Config.secrets.host}${Nodal.my.Config.secrets.port}/crumbs/${crumb.id}` })
-              // .then((deletedcrumbs) => { console.warn(`deleted${deletedcrumbs}`); })
-              .catch((error) => { console.warn(`Error deleting crumbs: ${error}`); });
-            });
-          }
-        })
-        .catch((error) => {
-          this.respond(`There was an error deleting this trail: ${error}`);
-        });
-      this.respond(err || `Trail number ${trailId} has been deleted!`);
+    Trail.destroy(this.params.route.id, (err) => {
+      this.respond(err || `Trail number ${this.params.route.id} has been deleted!`);
+    });
+    Crumb.query().where({ trail_id: this.params.route.id })
+    .end((error, models) => {
+      if (models) {
+        models.destroyAll();
+      }
+      this.respond(error || 'Trail Deleted');
     });
   }
 }
