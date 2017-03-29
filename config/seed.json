@@ -108,7 +108,7 @@
          "type": "tour",
          "transport": "walk",
          "length": "1 miles",
-         "difficulty": 1,
+         "difficulty": 2,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 20 mins",
          "requires_money": false
@@ -121,7 +121,7 @@
          "type": "adventure",
          "transport": "bike",
          "length": "10 miles",
-         "difficulty": 5,
+         "difficulty": 2,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 30 mins",
          "requires_money": true
@@ -134,7 +134,7 @@
          "type": "tour",
          "transport": "walk",
          "length": "a couple blocks",
-         "difficulty": 4,
+         "difficulty": 2,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 30 mins",
          "requires_money": true
@@ -147,7 +147,7 @@
          "type": "tour",
          "transport": "walk",
          "length": "2 miles",
-         "difficulty": 5,
+         "difficulty": 2,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 30 mins",
          "requires_money": true
@@ -785,7 +785,7 @@
          "type": "tour",
          "transport": "walk",
          "length": "1 miles",
-         "difficulty": 1,
+         "difficulty": 2,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 20 mins",
          "requires_money": false
@@ -798,7 +798,7 @@
          "type": "adventure",
          "transport": "bike",
          "length": "10 miles",
-         "difficulty": 5,
+         "difficulty": 2,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 30 mins",
          "requires_money": true
@@ -811,7 +811,7 @@
          "type": "tour",
          "transport": "walk",
          "length": "a couple blocks",
-         "difficulty": 4,
+         "difficulty": 2,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 30 mins",
          "requires_money": true
@@ -824,7 +824,7 @@
          "type": "tour",
          "transport": "walk",
          "length": "2 miles",
-         "difficulty": 5,
+         "difficulty": 2,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 30 mins",
          "requires_money": true
@@ -1406,7 +1406,7 @@
          "type": "tour",
          "transport": "walk",
          "length": "1 miles",
-         "difficulty": 1,
+         "difficulty": 2,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 20 mins",
          "requires_money": false
@@ -1419,7 +1419,7 @@
          "type": "adventure",
          "transport": "bike",
          "length": "10 miles",
-         "difficulty": 5,
+         "difficulty": 2,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 30 mins",
          "requires_money": true
@@ -1432,7 +1432,7 @@
          "type": "tour",
          "transport": "walk",
          "length": "a couple blocks",
-         "difficulty": 4,
+         "difficulty": 2,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 30 mins",
          "requires_money": true
@@ -1445,7 +1445,7 @@
          "type": "tour",
          "transport": "walk",
          "length": "2 miles",
-         "difficulty": 5,
+         "difficulty": 2,
          "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
          "time": "est 30 mins",
          "requires_money": true
