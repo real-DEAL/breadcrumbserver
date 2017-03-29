@@ -2,6 +2,7 @@
 
 const Nodal = require('nodal');
 const AccessToken = Nodal.require('app/models/access_token.js');
+const Q = require('q');
 
 class V1AccessTokensController extends Nodal.Controller {
   create() {
@@ -10,14 +11,16 @@ class V1AccessTokensController extends Nodal.Controller {
       grant_type: 'password',
       username: this.params.body.username,
     };
-    AccessToken.login(this.params, (err, accessToken) => {
-      this.respond(err || accessToken);
-    });
+    const login = Q.nbind(AccessToken.login, AccessToken);
+    login(this.params)
+      .then((accessToken) => { this.respond(accessToken); })
+      .catch((err) => { this.respond(err); });
   }
   destroy() {
-    AccessToken.logout(this.params, (err, accessToken) => {
-      this.respond(err || accessToken);
-    });
+    const logout = Q.nbind(AccessToken.logout, AccessToken);
+    logout(this.params)
+      .then((accessToken) => { this.respond(accessToken); })
+      .catch((err) => { this.respond(err); });
   }
 }
 
