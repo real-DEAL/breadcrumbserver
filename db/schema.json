@@ -80,7 +80,7 @@
         {"name": "trail_id", "type": "int", "properties": {}},
         {"name": "position", "type": "int", "properties": {}},
         {"name": "time_start", "type": "string", "properties": {}},
-        {"name": "time_sinished", "type": "string", "properties": {}},
+        {"name": "time_finished", "type": "string", "properties": {}},
         {"name": "created_at", "type": "datetime", "properties": {}},
         {"name": "updated_at", "type": "datetime", "properties": {}}
       ]
