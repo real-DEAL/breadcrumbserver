@@ -11,7 +11,6 @@ const AuthController = Nodal.require('app/controllers/auth_controller.js');
 
 const Trail = Nodal.require('app/models/trail.js');
 const Crumb = Nodal.require('app/models/crumb.js');
-// const ModelArray = Nodal.require('node_modules/nodal/core/required/model_array.js');
 const Q = require('q');
 
 class TrailsController extends AuthController {

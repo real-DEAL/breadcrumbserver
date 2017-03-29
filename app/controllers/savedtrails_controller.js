@@ -4,6 +4,7 @@ const Nodal = require('nodal');
 
 const Savedtrail = Nodal.require('app/models/savedtrail.js');
 const AuthController = Nodal.require('app/controllers/auth_controller.js');
+const Q = require('q');
 
 class SavedtrailsController extends AuthController {
   index() {
@@ -38,33 +39,37 @@ class SavedtrailsController extends AuthController {
     this.authorize((accessToken, user) => {
       this.params.body.user_id = user.get('id');
     });
-    Savedtrail.find(this.params.route.id, (err, model) => {
-      this.respond(err || model);
-    });
+    const findSavedtrail = Q.nbind(Savedtrail.find, Savedtrail);
+    findSavedtrail(this.params.route.id)
+      .then((model) => { this.respond(model); })
+      .catch((err) => { this.respond(err); });
   }
   create() {
     this.authorize((accessToken, user) => {
       this.params.body.user_id = user.get('id');
     });
-    Savedtrail.create(this.params.body, (err, model) => {
-      this.respond(err || model);
-    });
+    const createSavedTrail = Q.nbind(Savedtrail.create, Savedtrail);
+    createSavedTrail(this.params.body)
+      .then((model) => { this.respond(model); })
+      .catch((err) => { this.respond(err); });
   }
   update() {
     this.authorize((accessToken, user) => {
       this.params.body.user_id = user.get('id');
     });
-    Savedtrail.update(this.params.route.id, this.params.body, (err, model) => {
-      this.respond(err || model);
-    });
+    const updateTrail = Q.nbind(Savedtrail.update, Savedtrail);
+    updateTrail(this.params.route.id, this.params.body)
+      .then((model) => { this.respond(model); })
+      .catch((err) => { this.respond(err); });
   }
   destroy() {
     this.authorize((accessToken, user) => {
       this.params.body.user_id = user.get('id');
     });
-    Savedtrail.destroy(this.params.route.id, (err, model) => {
-      this.respond(err || model);
-    });
+    const deleteSavedTrail = Q.nbind(Savedtrail.destroy, Savedtrail);
+    deleteSavedTrail(this.params.route.id)
+      .then(() => { this.respond('Savedtrail has been deleted'); })
+      .catch((err) => { this.respond(err); });
   }
 
 }

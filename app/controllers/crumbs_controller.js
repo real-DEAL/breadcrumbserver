@@ -39,17 +39,10 @@ class CrumbsController extends AuthController {
     this.authorize((accessToken, user) => {
       this.params.body.user_id = user.get('id');
     });
-    Crumb.update(this.params.route.id, this.params.body, (err, model) => {
-      this.respond(err || model);
-    });
-
-    // TODO currently not using this route, will need to test when we do
-    // have already instantiated the possible promise pattern
-    // const updateCrumb = Q.nbind(Crumb.update, Crumb);
-    // updateCrumb(this.params.route.id, this.params.body)
-    //   .then((model) => { this.respond(model); })
-    //   .catch((err) => { this.respond(err); });
-    //
+    const updateCrumb = Q.nbind(Crumb.update, Crumb);
+    updateCrumb(this.params.route.id, this.params.body)
+      .then((model) => { this.respond(model); })
+      .catch((err) => { this.respond(err); });
   }
   destroy() {
     this.authorize((accessToken, user) => {
