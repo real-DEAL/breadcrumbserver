@@ -12,8 +12,26 @@ class SavedtrailsController extends AuthController {
     });
     Savedtrail.query()
       .where(this.params.query)
+      .join('trail')
       .end((err, models) => {
-        this.respond(err || models);
+        this.respond(err || models, [
+          'user_id',
+          'trail_id',
+          'position',
+          'time_start',
+          'time_finished',
+          { trail: [
+            'name',
+            'description',
+            'max_rating',
+            'rating',
+            'transport',
+            'length',
+            'requires_money',
+            'difficulty',
+            'map',
+          ] },
+        ]);
       });
   }
   show() {
