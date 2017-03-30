@@ -30,6 +30,7 @@ class TrailsController extends AuthController {
           'name',
           'description',
           'rating',
+          'max_rating',
           'type',
           'transport',
           'length',
@@ -44,10 +45,10 @@ class TrailsController extends AuthController {
       });
   }
   show() {
-    const findTrail = Q.nbind(Trail.find, Trail);
     this.authorize((accessToken, user) => {
       this.params.body.user_id = user.get('id');
     });
+    const findTrail = Q.nbind(Trail.find, Trail);
     findTrail(this.params.route.id)
       .then((success) => { this.respond(success); })
       .catch((err) => { this.respond(err); });
@@ -65,7 +66,8 @@ class TrailsController extends AuthController {
     */
     const createTrail = Q.nbind(Trail.create, Trail);
     const addCrumb = Q.nbind(Crumb.create, Crumb);
-
+    this.params.body.rating = this.params.body.max_rating || 0;
+    this.params.body.max_rating = this.params.body.max_rating || 0;
     createTrail(this.params.body)
       .then((models) => {
         const trailId = models.toObject(['id']);
