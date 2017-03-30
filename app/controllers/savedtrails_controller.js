@@ -16,6 +16,7 @@ class SavedtrailsController extends AuthController {
       .join('trail')
       .end((err, models) => {
         this.respond(err || models, [
+          'id',
           'user_id',
           'trail_id',
           'position',
