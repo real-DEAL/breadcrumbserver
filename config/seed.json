@@ -99,60 +99,64 @@
         "social_login": "auth0|58d403842da1ce3061e5e0de"
       }
      ],
-     "Trail": [
-       {
-         "user_id": 1,
-         "name": "March to Rouses",
-         "description": "This is the ultimate test of endurance, make your way from St.Patricks church all the way to Rouses",
-         "rating": 3,
-         "type": "tour",
-         "transport": "walk",
-         "length": "1 miles",
-         "difficulty": 2,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 20 mins",
-         "requires_money": false
-       },
-       {
-         "user_id": 1,
-         "name": "Eric's places",
-         "description": "The full experience",
-         "rating": 3,
-         "type": "adventure",
-         "transport": "bike",
-         "length": "10 miles",
-         "difficulty": 2,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 30 mins",
-         "requires_money": true
-       },
-       {
-         "user_id": 2,
-         "name": "Breadcrumb Presentation",
-         "description": "Just a little taste of the crumb",
-         "rating": 3,
-         "type": "tour",
-         "transport": "walk",
-         "length": "a couple blocks",
-         "difficulty": 2,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 30 mins",
-         "requires_money": true
-       },
-       {
-         "user_id": 1,
-         "name": "Famous people",
-         "description": "This tour will take you to some of the famous statues in the CBD",
-         "rating": 3,
-         "type": "tour",
-         "transport": "walk",
-         "length": "2 miles",
-         "difficulty": 2,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 30 mins",
-         "requires_money": true
-       }
-     ],
+     "Trail": [ {
+        "user_id": 1,
+        "name": "March to Rouses",
+        "description": "This is the ultimate test of endurance, make your way from St.Patricks church all the way to Rouses",
+        "max_rating": 5,
+        "rating": 3,
+        "max_rating": 5,
+        "type": "tour",
+        "transport": "WALKING",
+        "length": "1 miles",
+        "difficulty": 2,
+        "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+        "time": "est 20 mins",
+        "requires_money": false
+      },
+      {
+        "user_id": 1,
+        "name": "Eric's places",
+        "description": "The full experience",
+        "rating": 3,
+        "max_rating": 5,
+        "type": "adventure",
+        "transport": "DRIVING",
+        "length": "10 miles",
+        "difficulty": 2,
+        "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+        "time": "est 30 mins",
+        "requires_money": true
+      },
+      {
+        "user_id": 2,
+        "name": "Breadcrumb Presentation",
+        "description": "Just a little taste of the crumb",
+        "rating": 3,
+        "max_rating": 5,
+        "type": "tour",
+        "transport": "WALKING",
+        "length": "a couple blocks",
+        "difficulty": 2,
+        "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+        "time": "est 30 mins",
+        "requires_money": true
+      },
+      {
+        "user_id": 1,
+        "name": "Famous people",
+        "description": "This tour will take you to some of the famous statues in the CBD",
+        "rating": 3,
+        "max_rating": 5,
+        "type": "tour",
+        "transport": "WALKING",
+        "length": "2 miles",
+        "difficulty": 2,
+        "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+        "time": "est 30 mins",
+        "requires_money": true
+      }
+    ],
      "Crumb": [
        {
          "trail_id": 1,
@@ -170,7 +174,7 @@
          "data": "",
          "text": "This is St patricks church, congrats you made it",
          "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+         "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
          "ar": "string",
          "clue": "I hope you found it cause its cool ",
          "challenge": {
@@ -197,7 +201,7 @@
          "data": "",
          "text": "This is the bread zone where you get awesome sammies",
          "image": "https://previews.123rf.com/images/bhofack2/bhofack21106/bhofack2110600425/9864525-A-large-turkey-sandwhich-with-tomatoes-cheese-and-lettuce-Stock-Photo.jpg",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+         "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
          "ar": "string",
          "clue": "This is going to be a tasty one",
          "challenge": {
@@ -224,7 +228,7 @@
          "data": "",
          "text": "This is where you'll make dem groceries",
          "image": "http://static.panoramio.com/photos/large/77018914.jpg",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+         "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
          "ar": "string",
          "clue": "This is where you make dem groceries",
          "challenge": {
@@ -251,7 +255,7 @@
         "data": "",
         "text": "You've made it to the bulldog",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clyde_The_Bulldog.jpg/220px-Clyde_The_Bulldog.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "This is a quick spot to grab a beverage in mid-city so feel free to stop in for a pint",
         "challenge": {
@@ -278,7 +282,7 @@
         "data": "",
         "text": "Pat O's piano bar",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clyde_The_Bulldog.jpg/220px-Clyde_The_Bulldog.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "This is the home of the world famous dueling piano lounge",
         "challenge": {
@@ -305,7 +309,7 @@
         "data": "",
         "text": "Port O'Call",
         "image": "https://s-media-cache-ak0.pinimg.com/originals/d9/fc/11/d9fc1116abab0f13f35758daab6d18b0.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "This is a hideaway for hungry pirates and late night partiers, a pirate bar on esplanade",
         "challenge": {
@@ -332,7 +336,7 @@
         "data": "",
         "text": "This is St patricks church, congrats you made it",
         "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "I hope you found it cause its cool ",
         "challenge": {
@@ -359,7 +363,7 @@
         "data": "",
         "text": "yummy coffee",
         "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "Find the place where you can get Oj and coffee",
         "challenge": {
@@ -374,7 +378,7 @@
         "trail_id": 3,
         "name": "Operation Spark",
         "description": "The Beginning",
-        "order_number": 2,
+        "order_number": 3,
         "latitude": 29.945972,
         "longitude": -90.070166,
         "radius": 100,
@@ -386,7 +390,7 @@
         "data": "",
         "text": "A Triumphant return to Operation Spark",
         "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "Return to the place you did depart, you should know its well, cause it was the start.",
         "challenge": {
@@ -482,7 +486,7 @@
         "trail_id": 4,
         "name": "The Maid",
         "description": "She was known as the heroine of France",
-        "order_number": 3,
+        "order_number": 4,
         "latitude": 29.961947,
         "longitude": -90.068571,
         "radius": 100,
@@ -505,121 +509,7 @@
         },
         "media_text": "The uncrowned King Charles VII sent Joan to the siege of Orléans as part of a relief mission. She gained prominence after the siege was lifted only nine days later. Several additional swift victories led to Charles VII's coronation at Reims. This long-awaited event boosted French morale and paved the way for the final French victory."
       }
-     ],
-     "Savedtrail": [
-      {
-        "user_id": 4,
-        "trail_id": 3,
-        "position": 2,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 4,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 4,
-        "trail_id": 2,
-        "position": 3,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 4,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 3,
-        "trail_id": 4,
-        "position": 2,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 3,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 3,
-        "trail_id": 3,
-        "position": 3,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 3,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 2,
-        "trail_id": 4,
-        "position": 2,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 2,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 2,
-        "trail_id": 3,
-        "position": 3,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 2,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 1,
-        "trail_id": 4,
-        "position": 2,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 1,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 1,
-        "trail_id": 3,
-        "position": 3,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 1,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      }
-    ]
+     ]
   },
   "test": {
     "ArMessage": [
@@ -678,65 +568,9 @@
         "message":"Hey Listen!"
       }
     ],
-    "ArMessage": [
-      {
-        "username": "eperiou",
-        "bearing": 120,
-        "crumb_id": 1,
-        "message":"Hey Listen!"
-      },
-      {
-        "username": "eperiou",
-        "bearing": 90,
-        "crumb_id": 2,
-        "message":"Hey Listen!"
-      },
-      {
-        "username": "eperiou",
-        "bearing": 10,
-        "crumb_id": 3,
-        "message":"Hey Listen!"
-      },
-      {
-        "username": "eperiou",
-        "bearing": 50,
-        "crumb_id": 4,
-        "message":"Hey Listen!"
-      },
-      {
-        "username": "eperiou",
-        "bearing": 140,
-        "crumb_id": 5,
-        "message":"Hey Listen!"
-      },
-      {
-        "username": "eperiou",
-        "bearing": 120,
-        "crumb_id": 6,
-        "message":"Hey Listen!"
-      },
-      {
-        "username": "eperiou",
-        "bearing": 10,
-        "crumb_id": 7,
-        "message":"Hey Listen!"
-      },
-      {
-        "username": "eperiou",
-        "bearing": 120,
-        "crumb_id": 8,
-        "message":"Hey Listen!"
-      },
-      {
-        "username": "eperiou",
-        "bearing": 120,
-        "crumb_id": 9,
-        "message":"Hey Listen!"
-      }
-    ],
     "User":[
           {
-           "email":"Eric@email.com",
+           "email":"Eperiou@yahoo.com",
            "score":10,
            "total_completed":1,
            "current_trail":1,
@@ -770,66 +604,69 @@
         "score":30,
         "total_completed":3,
         "current_trail":3,
-        "password":"auth0|58d403842da1ce3061e5e0de",
+        "password":"auth0|58d403842da1ce3061e5e0ded403842da1ce3061e5e0de",
         "username": "Liv",
         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
         "social_login": "auth0|58d403842da1ce3061e5e0de"
       }
      ],
-     "Trail": [
-       {
-         "user_id": 1,
-         "name": "March to Rouses",
-         "description": "This is the ultimate test of endurance, make your way from St.Patricks church all the way to Rouses",
-         "rating": 3,
-         "type": "tour",
-         "transport": "walk",
-         "length": "1 miles",
-         "difficulty": 2,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 20 mins",
-         "requires_money": false
-       },
-       {
-         "user_id": 1,
-         "name": "Eric's places",
-         "description": "The full experience",
-         "rating": 3,
-         "type": "adventure",
-         "transport": "bike",
-         "length": "10 miles",
-         "difficulty": 2,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 30 mins",
-         "requires_money": true
-       },
-       {
-         "user_id": 2,
-         "name": "Breadcrumb Presentation",
-         "description": "Just a little taste of the crumb",
-         "rating": 3,
-         "type": "tour",
-         "transport": "walk",
-         "length": "a couple blocks",
-         "difficulty": 2,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 30 mins",
-         "requires_money": true
-       },
-       {
-         "user_id": 1,
-         "name": "Famous people",
-         "description": "This tour will take you to some of the famous statues in the CBD",
-         "rating": 3,
-         "type": "tour",
-         "transport": "walk",
-         "length": "2 miles",
-         "difficulty": 2,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 30 mins",
-         "requires_money": true
-       }
-     ],
+     "Trail": [ {
+        "user_id": 1,
+        "name": "March to Rouses",
+        "description": "This is the ultimate test of endurance, make your way from St.Patricks church all the way to Rouses",
+        "rating": 3,
+        "max_rating": 5,
+        "type": "tour",
+        "transport": "WALKING",
+        "length": "1 miles",
+        "difficulty": 2,
+        "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+        "time": "est 20 mins",
+        "requires_money": false
+      },
+      {
+        "user_id": 1,
+        "name": "Eric's places",
+        "description": "The full experience",
+        "rating": 3,
+        "max_rating": 5,
+        "type": "adventure",
+        "transport": "DRIVING",
+        "length": "10 miles",
+        "difficulty": 2,
+        "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+        "time": "est 30 mins",
+        "requires_money": true
+      },
+      {
+        "user_id": 2,
+        "name": "Breadcrumb Presentation",
+        "description": "Just a little taste of the crumb",
+        "rating": 3,
+        "max_rating": 5,
+        "type": "tour",
+        "transport": "WALKING",
+        "length": "a couple blocks",
+        "difficulty": 2,
+        "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+        "time": "est 30 mins",
+        "requires_money": true
+      },
+      {
+        "user_id": 1,
+        "name": "Famous people",
+        "description": "This tour will take you to some of the famous statues in the CBD",
+        "rating": 3,
+        "max_rating": 5,
+        "type": "tour",
+        "transport": "WALKING",
+        "length": "2 miles",
+        "difficulty": 2,
+        "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+        "time": "est 30 mins",
+        "requires_money": true
+      }
+    ],
      "Crumb": [
        {
          "trail_id": 1,
@@ -847,7 +684,7 @@
          "data": "",
          "text": "This is St patricks church, congrats you made it",
          "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+         "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
          "ar": "string",
          "clue": "I hope you found it cause its cool ",
          "challenge": {
@@ -874,7 +711,7 @@
          "data": "",
          "text": "This is the bread zone where you get awesome sammies",
          "image": "https://previews.123rf.com/images/bhofack2/bhofack21106/bhofack2110600425/9864525-A-large-turkey-sandwhich-with-tomatoes-cheese-and-lettuce-Stock-Photo.jpg",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+         "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
          "ar": "string",
          "clue": "This is going to be a tasty one",
          "challenge": {
@@ -901,7 +738,7 @@
          "data": "",
          "text": "This is where you'll make dem groceries",
          "image": "http://static.panoramio.com/photos/large/77018914.jpg",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+         "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
          "ar": "string",
          "clue": "This is where you make dem groceries",
          "challenge": {
@@ -928,7 +765,7 @@
         "data": "",
         "text": "You've made it to the bulldog",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clyde_The_Bulldog.jpg/220px-Clyde_The_Bulldog.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "This is a quick spot to grab a beverage in mid-city so feel free to stop in for a pint",
         "challenge": {
@@ -955,7 +792,7 @@
         "data": "",
         "text": "Pat O's piano bar",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clyde_The_Bulldog.jpg/220px-Clyde_The_Bulldog.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "This is the home of the world famous dueling piano lounge",
         "challenge": {
@@ -982,7 +819,7 @@
         "data": "",
         "text": "Port O'Call",
         "image": "https://s-media-cache-ak0.pinimg.com/originals/d9/fc/11/d9fc1116abab0f13f35758daab6d18b0.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "This is a hideaway for hungry pirates and late night partiers, a pirate bar on esplanade",
         "challenge": {
@@ -1009,7 +846,7 @@
         "data": "",
         "text": "This is St patricks church, congrats you made it",
         "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "I hope you found it cause its cool ",
         "challenge": {
@@ -1036,7 +873,7 @@
         "data": "",
         "text": "yummy coffee",
         "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "Find the place where you can get Oj and coffee",
         "challenge": {
@@ -1051,7 +888,7 @@
         "trail_id": 3,
         "name": "Operation Spark",
         "description": "The Beginning",
-        "order_number": 2,
+        "order_number": 3,
         "latitude": 29.945972,
         "longitude": -90.070166,
         "radius": 100,
@@ -1063,7 +900,7 @@
         "data": "",
         "text": "A Triumphant return to Operation Spark",
         "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "Return to the place you did depart, you should know its well, cause it was the start.",
         "challenge": {
@@ -1159,7 +996,7 @@
         "trail_id": 4,
         "name": "The Maid",
         "description": "She was known as the heroine of France",
-        "order_number": 3,
+        "order_number": 4,
         "latitude": 29.961947,
         "longitude": -90.068571,
         "radius": 100,
@@ -1182,121 +1019,7 @@
         },
         "media_text": "The uncrowned King Charles VII sent Joan to the siege of Orléans as part of a relief mission. She gained prominence after the siege was lifted only nine days later. Several additional swift victories led to Charles VII's coronation at Reims. This long-awaited event boosted French morale and paved the way for the final French victory."
       }
-     ],
-     "Savedtrail": [
-      {
-        "user_id": 4,
-        "trail_id": 3,
-        "position": 2,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 4,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 4,
-        "trail_id": 2,
-        "position": 3,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 4,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 3,
-        "trail_id": 4,
-        "position": 2,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 3,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 3,
-        "trail_id": 3,
-        "position": 3,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 3,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 2,
-        "trail_id": 4,
-        "position": 2,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 2,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 2,
-        "trail_id": 3,
-        "position": 3,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 2,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 1,
-        "trail_id": 4,
-        "position": 2,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 1,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 1,
-        "trail_id": 3,
-        "position": 3,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 1,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      }
-    ]
+     ]
   },
   "production": {
     "ArMessage": [
@@ -1357,7 +1080,7 @@
     ],
     "User":[
           {
-           "email":"Eric@email.com",
+           "email":"Eperiou@yahoo.com",
            "score":10,
            "total_completed":1,
            "current_trail":1,
@@ -1391,66 +1114,69 @@
         "score":30,
         "total_completed":3,
         "current_trail":3,
-        "password":"auth0|58d403842da1ce3061e5e0de",
+        "password":"auth0|58d403842da1ce3061e5e0ded403842da1ce3061e5e0de",
         "username": "Liv",
         "profile_picture":"http://res.cloudinary.com/eperiou/image/upload/v1490227817/liv_pm59hh.jpg",
         "social_login": "auth0|58d403842da1ce3061e5e0de"
       }
      ],
-     "Trail": [
-       {
-         "user_id": 1,
-         "name": "March to Rouses",
-         "description": "This is the ultimate test of endurance, make your way from St.Patricks church all the way to Rouses",
-         "rating": 3,
-         "type": "tour",
-         "transport": "walk",
-         "length": "1 miles",
-         "difficulty": 2,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 20 mins",
-         "requires_money": false
-       },
-       {
-         "user_id": 1,
-         "name": "Eric's places",
-         "description": "The full experience",
-         "rating": 3,
-         "type": "adventure",
-         "transport": "bike",
-         "length": "10 miles",
-         "difficulty": 2,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 30 mins",
-         "requires_money": true
-       },
-       {
-         "user_id": 2,
-         "name": "Breadcrumb Presentation",
-         "description": "Just a little taste of the crumb",
-         "rating": 3,
-         "type": "tour",
-         "transport": "walk",
-         "length": "a couple blocks",
-         "difficulty": 2,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 30 mins",
-         "requires_money": true
-       },
-       {
-         "user_id": 1,
-         "name": "Famous people",
-         "description": "This tour will take you to some of the famous statues in the CBD",
-         "rating": 3,
-         "type": "tour",
-         "transport": "walk",
-         "length": "2 miles",
-         "difficulty": 2,
-         "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
-         "time": "est 30 mins",
-         "requires_money": true
-       }
-     ],
+     "Trail": [ {
+        "user_id": 1,
+        "name": "March to Rouses",
+        "description": "This is the ultimate test of endurance, make your way from St.Patricks church all the way to Rouses",
+        "rating": 3,
+        "max_rating": 5,
+        "type": "tour",
+        "transport": "WALKING",
+        "length": "1 miles",
+        "difficulty": 2,
+        "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+        "time": "est 20 mins",
+        "requires_money": false
+      },
+      {
+        "user_id": 1,
+        "name": "Eric's places",
+        "description": "The full experience",
+        "rating": 3,
+        "max_rating": 5,
+        "type": "adventure",
+        "transport": "DRIVING",
+        "length": "10 miles",
+        "difficulty": 2,
+        "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+        "time": "est 30 mins",
+        "requires_money": true
+      },
+      {
+        "user_id": 2,
+        "name": "Breadcrumb Presentation",
+        "description": "Just a little taste of the crumb",
+        "rating": 3,
+        "max_rating": 5,
+        "type": "tour",
+        "transport": "WALKING",
+        "length": "a couple blocks",
+        "difficulty": 2,
+        "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+        "time": "est 30 mins",
+        "requires_money": true
+      },
+      {
+        "user_id": 1,
+        "name": "Famous people",
+        "description": "This tour will take you to some of the famous statues in the CBD",
+        "rating": 3,
+        "max_rating": 5,
+        "type": "tour",
+        "transport": "WALKING",
+        "length": "2 miles",
+        "difficulty": 2,
+        "map":"http://maps.googleapis.com/maps/api/staticmap?size=300x300&path=enc:}hruBf~`|QwhF`^kbGkuEwzMuaKq{KpoBsqQ~iHszIzyMokDplNizHhqNogHrcFakDhrEovBtnCugE`rLc~JrcRufD~cPcr\\zn[_vHthQctB_AafG||D_iBhcFc~JjtLmyVns]ozVlwOi}Nv}OedI|_HcmGu{A_vFm}BewPvnDebWd|Sec]pwGubGl}@}tKxlMgw\\xyKedO`|BolF}uFebIkwEwwJfZ{dDd}C_hKlqDi|HhkIqfM`dCciLh_FajQwgDidQfHknVi_EuoGqwB}eB_cHucOcwIcfFkxAowF{qBazC}cIzuDenLlv@wzCtaCcqGdeEg}DtjJsgO{pFqtFwkL_|EkgLq{ViyNm}YmaF}hEojM_rIs{De|F{_Fq{Ho|MwrKa~Mg`I{|XwaCcoQ_v@oxEg_B}}@{eEeg@mxLu_HmmDelEe`EnmBqlHigG}~LepScvFg|KoS{n@goEwgDotEhqCauBvv@enE_NgqErO_rEigCrR_fCahC}mGqzEcaKso@ysDjgAcbDq\\qeWmvOygC_|Esn@_jGqoQslDkrHklE_eDovJle@qiUjRmiIc}DwfLsgMswOc`T{lIuoXmpNyeMqpFo|[iuFo}Mc}CukFueFm~CqzPugNaaCayYkrB{mJcbD_gQitQqwIsnJy}HetH_nItkA_rHgv@ccHidE_lI{aBi|JUqxWu@gvN{\\cs@s}Ao_CAcvHMicPui@agV{xHgiDgJkxLemGyoCc}BajCnyDyyE`mBafKhwD_mPxqEgwV{}Ac_|@bm@yqr@bhBkmWkBmuQrpAodWh}FyyGxdAenG{pAkoDmVeyFyeHu~LwuCgc^wzUqpK_oCoyGtEqiKoiKyqGmeFglEwUccMelNuzE{vFwa]u~X__PmtPytXspZudY~R}jLmeAoeGayJojOalOsaKcfVa{Mso[_cRwbc@ekKeoRgsC{kL{aB}jDk_EehBcjJ_fQi|NmdFesNmkPy}HclQs_G}aJmSqhPynGerV_dHcuIaoPkqQcdBedWsaGstJdVi{Y{hE}`c@wnEwmj@|l@emiAcak@qto@gvD{[ykAwdBxFadE{lCy{HipBy|Ev\\_oP|nAmpOkUqyKklBmaPsyMuer@ejCaiY~CqxOqdA}hTqHsoQnNqi`AddAsmf@cEuxU_mA_rTgAmxb@_yFqjTy}Hmlf@}{Rc~hAif@ysRvz@yuKlcEifOdcLeaNzyHspEleOg`Hd`IaoWv_Ka{dAldPota@jr@}qUt^yhOsg@m|C",
+        "time": "est 30 mins",
+        "requires_money": true
+      }
+    ],
      "Crumb": [
        {
          "trail_id": 1,
@@ -1468,7 +1194,7 @@
          "data": "",
          "text": "This is St patricks church, congrats you made it",
          "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+         "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
          "ar": "string",
          "clue": "I hope you found it cause its cool ",
          "challenge": {
@@ -1495,7 +1221,7 @@
          "data": "",
          "text": "This is the bread zone where you get awesome sammies",
          "image": "https://previews.123rf.com/images/bhofack2/bhofack21106/bhofack2110600425/9864525-A-large-turkey-sandwhich-with-tomatoes-cheese-and-lettuce-Stock-Photo.jpg",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+         "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
          "ar": "string",
          "clue": "This is going to be a tasty one",
          "challenge": {
@@ -1522,7 +1248,7 @@
          "data": "",
          "text": "This is where you'll make dem groceries",
          "image": "http://static.panoramio.com/photos/large/77018914.jpg",
-         "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+         "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
          "ar": "string",
          "clue": "This is where you make dem groceries",
          "challenge": {
@@ -1549,7 +1275,7 @@
         "data": "",
         "text": "You've made it to the bulldog",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clyde_The_Bulldog.jpg/220px-Clyde_The_Bulldog.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "This is a quick spot to grab a beverage in mid-city so feel free to stop in for a pint",
         "challenge": {
@@ -1576,7 +1302,7 @@
         "data": "",
         "text": "Pat O's piano bar",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clyde_The_Bulldog.jpg/220px-Clyde_The_Bulldog.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "This is the home of the world famous dueling piano lounge",
         "challenge": {
@@ -1603,7 +1329,7 @@
         "data": "",
         "text": "Port O'Call",
         "image": "https://s-media-cache-ak0.pinimg.com/originals/d9/fc/11/d9fc1116abab0f13f35758daab6d18b0.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "This is a hideaway for hungry pirates and late night partiers, a pirate bar on esplanade",
         "challenge": {
@@ -1630,7 +1356,7 @@
         "data": "",
         "text": "This is St patricks church, congrats you made it",
         "image": "http://www.metalinjection.net/wp-content/uploads/2016/03/st-patrick.png",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "I hope you found it cause its cool ",
         "challenge": {
@@ -1657,7 +1383,7 @@
         "data": "",
         "text": "yummy coffee",
         "image": "http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "Find the place where you can get Oj and coffee",
         "challenge": {
@@ -1672,7 +1398,7 @@
         "trail_id": 3,
         "name": "Operation Spark",
         "description": "The Beginning",
-        "order_number": 2,
+        "order_number": 3,
         "latitude": 29.945972,
         "longitude": -90.070166,
         "radius": 100,
@@ -1684,7 +1410,7 @@
         "data": "",
         "text": "A Triumphant return to Operation Spark",
         "image": "https://operationspark.org/assets/images/cbbdef97.Robot-Mascot.png",
-        "video": "https://www.youtube.com/embed/_lK4cX5xGiQ",
+        "video": "https://www.youtube.com/embed/LEGV9H0aZaQ",
         "ar": "string",
         "clue": "Return to the place you did depart, you should know its well, cause it was the start.",
         "challenge": {
@@ -1780,7 +1506,7 @@
         "trail_id": 4,
         "name": "The Maid",
         "description": "She was known as the heroine of France",
-        "order_number": 3,
+        "order_number": 4,
         "latitude": 29.961947,
         "longitude": -90.068571,
         "radius": 100,
@@ -1803,120 +1529,6 @@
         },
         "media_text": "The uncrowned King Charles VII sent Joan to the siege of Orléans as part of a relief mission. She gained prominence after the siege was lifted only nine days later. Several additional swift victories led to Charles VII's coronation at Reims. This long-awaited event boosted French morale and paved the way for the final French victory."
       }
-     ],
-     "Savedtrail": [
-      {
-        "user_id": 4,
-        "trail_id": 3,
-        "position": 2,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 4,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 4,
-        "trail_id": 2,
-        "position": 3,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 4,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 3,
-        "trail_id": 4,
-        "position": 2,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 3,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 3,
-        "trail_id": 3,
-        "position": 3,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 3,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 2,
-        "trail_id": 4,
-        "position": 2,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 2,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 2,
-        "trail_id": 3,
-        "position": 3,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 2,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 1,
-        "trail_id": 4,
-        "position": 2,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 1,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      },
-      {
-        "user_id": 1,
-        "trail_id": 3,
-        "position": 3,
-        "time_start": 1420,
-        "time_finished": 1500
-      },
-      {
-        "user_id": 1,
-        "trail_id": 2,
-        "position": 1,
-        "time_start": 1200,
-        "time_finished": 1300
-      }
-    ]
+     ]
   }
 }
